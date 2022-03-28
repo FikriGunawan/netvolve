@@ -5,16 +5,18 @@ body{
     position: relative;
 }
 @font-face{
-    font-family: "Roboto Light";
-    src: url(Roboto-Light.ttf) format("truetype");
+    font-family: "(ObjectSans Regular";
+    src: url(ObjectSans-Regular.ttf) format("truetype");
 }
 @font-face{
-    font-family: "TitilliumWeb Regular";
-    src: url(TitilliumWeb-Regular.ttf) format("truetype");
+    font-family: "NeueMachina Regular";
+    src: url(NeueMachina-Regular.otf) format("truetype");
 }
-@font-face{
-    font-family: "TitilliumWeb Italic Regular";
-    src: url(TitilliumWeb-ExtraLightItalic.ttf) format("truetype");
+.font-objects{
+    font-family: "NeueMachina Regular";
+}
+.font-neue{
+    font-family: "Neu";
 }
 body{
     transition: all .3s;
@@ -39,26 +41,7 @@ body{
     width: 60%;
 }
 /* Margins */
-.mlm-40{
-    margin-left: -40px;
-}
-@font-face{
-    font-family: "Roboto Light";
-    src: url(Roboto-Light.ttf) format("truetype");
-}
-@font-face{
-    font-family: "TitilliumWeb Regular";
-    src: url(TitilliumWeb-Regular.ttf) format("truetype");
-}
-@font-face{
-    font-family: "TitilliumWeb Italic Regular";
-    src: url(TitilliumWeb-ExtraLightItalic.ttf) format("truetype");
-}
-@font-face{
-    font-family: "TitilliumWeb Bold";
-    src: url(TitilliumWeb-Bold.ttf) format("truetype");
-}
-h1, h2, h3, h4, h5, h6, p, a {font-family: "TitilliumWeb Regular"; letter-spacing: 0.3px;}
+h1, h2, h3, h4, h5, h6, p, a {font-family: "ObjectSans Regular"; letter-spacing: 0.3px;}
 p{
     line-height: 26px;
 }
