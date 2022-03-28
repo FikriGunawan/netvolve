@@ -48,6 +48,19 @@ p{
 .text-gray{
     color: #666666;
 }
+/* Pages */
+.banner-top .banner{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+.banner-top .bg-banner{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+}
 /* Components */
 /* Button and Links */
 
