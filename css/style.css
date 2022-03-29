@@ -63,13 +63,9 @@ p{
 .banner-top{
     height: 100vh;
     overflow: hidden;
-    width: 100vw;
 }
 .banner-top .banner{
-    position: absolute;
-    left: 0;
-    top: 0;
-    z-index: 1;
+   width: 100vw;
 }
 .banner-top .bg-banner{
     position: relative;
