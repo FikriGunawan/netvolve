@@ -172,12 +172,9 @@ $('.carousel-csr').addClass('owl-carousel owl-theme').owlCarousel({
    }
  }
 })
-$('.carousel-mobile-projects-list').addClass('owl-carousel owl-theme').owlCarousel({
-  loop:false,
-  animateOut: 'fadeOut',
-  animateIn: 'fadeIn',
+$('.home-isp').addClass('owl-carousel owl-theme').owlCarousel({
+  loop: false,
   navText: ["<img src='images/chevron-left-square-08.png'>","<img src='images/chevron-right-square-08.png'>"],
-  items:2,
   responsive:{
    0: {
      items: 1,
@@ -192,9 +189,12 @@ $('.carousel-mobile-projects-list').addClass('owl-carousel owl-theme').owlCarous
      nav: false
    },
    1000: {
-     stagePadding: 40,
-     items: 2,
-     dots: false
+     stagePadding: 200,
+     margin: 60,
+     items: 1,
+     dots: false,
+     loop: true,
+     nav: true
    }
  }
 })
