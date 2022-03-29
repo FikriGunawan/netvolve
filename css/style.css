@@ -63,6 +63,7 @@ p{
 .banner-top{
     height: 100vh;
     overflow: hidden;
+    width: 100vw;
 }
 .banner-top .banner{
     position: absolute;
