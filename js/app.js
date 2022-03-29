@@ -174,7 +174,7 @@ $('.carousel-csr').addClass('owl-carousel owl-theme').owlCarousel({
 })
 $('.home-isp').addClass('owl-carousel owl-theme').owlCarousel({
   loop: false,
-  navText: ["<img src='images/chevron-left-square-08.png'>","<img src='images/chevron-right-square-08.png'>"],
+  navText: ["<i class='fas fa-arrow-left'></i>","<i class='fas fa-arrow-right'></i>"],
   responsive:{
    0: {
      items: 1,
@@ -190,7 +190,7 @@ $('.home-isp').addClass('owl-carousel owl-theme').owlCarousel({
    },
    1000: {
      stagePadding: 200,
-     margin: 60,
+     margin: 50,
      items: 1,
      dots: false,
      loop: true,

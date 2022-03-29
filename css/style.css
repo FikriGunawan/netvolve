@@ -92,17 +92,84 @@ p{
 }
 .home-isp .wrap{
     width: 100%;
+    background-image: url(../images/images/home-isp.jpg);
+    border-radius: 20px;
+    overflow: hidden;
 }
 .home-isp .content{
     position: absolute;
-    left: 10%;
+    left: 7%;
     top: 50%;
-    transform: translate(-50%, -50%);
+    transform: translateY(-50%);
 }
 .home-isp .content .button-pos{
     position: absolute;
     bottom: 15%;
     right: 0;
+}
+.home-services .nav-pills .nav-link.active,.home-services .nav-pills .show > .nav-link{
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    border-bottom: 5px solid #0056C9;
+    border-radius: 0;
+}
+.home-services .nav-pills .nav-link{
+    color: #231F20;
+}
+.home-services .nav-pills .nav-link:hover{
+    border-bottom: 5px solid #0056C9;
+    border-radius: 0;
+}
+.home-isp .owl-next{
+    background-color: #fff !important;
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 100px !important;
+    width: 40px;
+    height: 40px;
+    color: #0056C9 !important;
+}
+.home-isp .owl-prev{
+    background-color: #fff !important;
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 100px !important;
+    width: 40px;
+    height: 40px;
+    color: #0056C9 !important;
+}
+.the-process{
+    background-image: url(../images/bg-the-process.png);
+    background-size: cover;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.points-thumb .thumbs .number{
+    width: 156px;
+    height: 156px;
+    position: relative;  
+    margin: auto;
+}
+.points-thumb .thumbs .number .no, .points-thumb .thumbs .number .circle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.points-thumb .thumbs .wrap-details{
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    padding-top: 6rem;
+    margin-top: -70px;
+    padding-bottom: 1.5rem;
+    background-color: #fff;
 }
 /* Components */
 /* Button and Links */
@@ -115,6 +182,9 @@ p{
     background-color: #0056C9;
     border-radius: 10px;
     padding: 12px 46px;
+    color: #fff;
+}
+.button-blue:hover{
     color: #fff;
 }
 .v-shadow{
