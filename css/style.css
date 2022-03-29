@@ -5,7 +5,7 @@ body{
     position: relative;
 }
 @font-face{
-    font-family: "(ObjectSans Regular";
+    font-family: "ObjectSans Regular";
     src: url(ObjectSans-Regular.ttf) format("truetype");
 }
 @font-face{
@@ -40,15 +40,30 @@ body{
 .w-60{
     width: 60%;
 }
+a:hover{
+    text-decoration: none;
+}
 /* Margins */
-h1, h2, h3, h4, h5, h6, p, a {font-family: "ObjectSans Regular"; letter-spacing: 0.3px;}
+h1, h2, h3, h4, h5, h6, a {font-family: "NeueMachina Regular"; letter-spacing: 0.3px;}
 p{
-    line-height: 26px;
+    font-family: "ObjectSans Regular";
 }
 .text-gray{
     color: #666666;
 }
+.text-black{
+    color: #000;
+}
+/* Images */
+.fluid-100vh{
+    object-fit: cover;
+    height: 100vh;
+}
 /* Pages */
+.banner-top{
+    height: 100vh;
+    overflow: hidden;
+}
 .banner-top .banner{
     position: absolute;
     left: 0;
@@ -56,13 +71,24 @@ p{
     z-index: 1;
 }
 .banner-top .bg-banner{
+    position: relative;
+}
+.banner-top .title-banner{
     position: absolute;
-    left: 0;
-    top: 0;
-    z-index: 0;
+    top: 50%;
+    z-index: 2;
+    width: 25%;
+    left: 20%;
+    transform: translate(-50% , -50%);
 }
 /* Components */
 /* Button and Links */
+.button-white{
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 12px 46px;
+}
+
 
 @media screen and (max-width: 414px) {
     p {
