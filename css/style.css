@@ -13,10 +13,10 @@ body{
     src: url(NeueMachina-Regular.otf) format("truetype");
 }
 .font-objects{
-    font-family: "NeueMachina Regular";
+    font-family: "ObjectSans Regular";
 }
 .font-neue{
-    font-family: "Neu";
+    font-family: "NeueMachina Regular";
 }
 body{
     transition: all .3s;
@@ -47,6 +47,7 @@ a:hover{
 h1, h2, h3, h4, h5, h6, a {font-family: "NeueMachina Regular"; letter-spacing: 0.3px;}
 p{
     font-family: "ObjectSans Regular";
+    font-size: 0.8rem;
 }
 .text-gray{
     color: #666666;
@@ -58,6 +59,9 @@ p{
 .fluid-100vh{
     object-fit: cover;
     height: 100vh;
+}
+.fit-contain{
+    object-fit: contain;
 }
 /* Pages */
 .banner-top{
@@ -78,12 +82,45 @@ p{
     left: 20%;
     transform: translate(-50% , -50%);
 }
+.network .content{
+    position: absolute;
+    top: 50%;
+    z-index: 2;
+    width: 25%;
+    left: 20%;
+    transform: translate(-50% , -50%);
+}
+.home-isp .wrap{
+    width: 100%;
+}
+.home-isp .content{
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.home-isp .content .button-pos{
+    position: absolute;
+    bottom: 15%;
+    right: 0;
+}
 /* Components */
 /* Button and Links */
 .button-white{
     background-color: #fff;
-    border-radius: 20px;
+    border-radius: 10px;
     padding: 12px 46px;
+}
+.button-blue{
+    background-color: #0056C9;
+    border-radius: 10px;
+    padding: 12px 46px;
+    color: #fff;
+}
+.v-shadow{
+    -webkit-box-shadow: 0px -5px 15px -10px rgba(0,0,0,0.58);
+    -moz-box-shadow: 0px -5px 15px -10px rgba(0,0,0,0.4);
+    box-shadow: 0px -5px 15px -10px rgba(0,0,0,0.4);
 }
 
 
