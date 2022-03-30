@@ -198,7 +198,7 @@ $('.car-testi').addClass('owl-carousel owl-theme').owlCarousel({
 })
 $('.car-promotion').addClass('owl-carousel owl-theme').owlCarousel({
   animateOut: 'fadeOut',
-  navText: ["<img src='images/chevron-left-edge-08.png'>","<img src='images/chevron-right-edge-08.png'>"],
+  navText: ["<img src='images/chevron-left-edge-08.png'>","<i class='fas fa-arrow-right'></i>"],
   autoplay:false,
   autoplayTimeout: 5000,
   loop: true,
