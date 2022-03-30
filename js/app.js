@@ -10,35 +10,6 @@ $(document).ready(function() {
   })
 });
   //  Favor
- $('.carousel-homebanner').addClass('owl-carousel owl-theme').owlCarousel({
-    animateOut: 'fadeOut',
-    navText: ["<img src='images/chevron-left-edge-08.png'>","<img src='images/chevron-right-edge-08.png'>"],
-    autoplay:false,
-    autoplayTimeout: 5000,
-    loop: true,
-    responsive:{
-     0: {
-       items: 1,
-       dots: true,
-       nav: false,
-       autoplay:true,
-       autoplayTimeout:5000,
-       mouseDrag: true,
-      touchDrag: true
-     },
-     600: {
-       items: 1,
-       nav: false
-     },
-     1000: {
-       items: 1,
-       dots: false,
-       nav: true,
-       mouseDrag: false,
-       touchDrag: false
-     }
-   }
- })
  $('.carousel-ourbusiness').addClass('owl-carousel owl-theme').owlCarousel({
   loop:false,
   navText: ["<img src='images/chevron-left-square-08.png'>","<img src='images/chevron-right-square-08.png'>"],
@@ -200,6 +171,7 @@ $('.home-isp').addClass('owl-carousel owl-theme').owlCarousel({
 })
 $('.car-testi').addClass('owl-carousel owl-theme').owlCarousel({
   loop: false,
+  left: -200,
   navText: ["<i class='fas fa-arrow-left'></i>","<i class='fas fa-arrow-right'></i>"],
   responsive:{
    0: {
@@ -215,12 +187,41 @@ $('.car-testi').addClass('owl-carousel owl-theme').owlCarousel({
      nav: false
    },
    1000: {
-     stagePadding: 50,
-     margin: 50,
-     items: 3,
+     stagePadding: 200,
+     margin: 25,
+     items: 2,
      dots: false,
      loop: false,
      nav: true
+   }
+ }
+})
+$('.car-promotion').addClass('owl-carousel owl-theme').owlCarousel({
+  animateOut: 'fadeOut',
+  navText: ["<img src='images/chevron-left-edge-08.png'>","<img src='images/chevron-right-edge-08.png'>"],
+  autoplay:false,
+  autoplayTimeout: 5000,
+  loop: true,
+  responsive:{
+   0: {
+     items: 1,
+     dots: true,
+     nav: false,
+     autoplay:true,
+     autoplayTimeout:5000,
+     mouseDrag: true,
+    touchDrag: true
+   },
+   600: {
+     items: 1,
+     nav: false
+   },
+   1000: {
+     items: 1,
+     dots: false,
+     nav: true,
+     mouseDrag: false,
+     touchDrag: false
    }
  }
 })

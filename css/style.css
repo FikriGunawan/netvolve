@@ -174,9 +174,40 @@ p{
 .home-testi{
     background-image: url(../images/bg-testi.jpg);
     background-size: cover;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.4);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.4);
 }
-.car-testi .items{
-    background-image: url(../images/testi-items.jpg);
+.car-testi .item{
+    background-color: #000;
+    padding: 40px;
+    border-radius: 25px;
+}
+.car-testi .owl-next{
+    background-color: #fff !important;
+    border-radius: 100px !important;
+    width: 40px;
+    height: 40px;
+    color: #0056C9 !important;
+}
+.car-testi .owl-prev{
+    background-color: #fff !important;
+    border-radius: 100px !important;
+    width: 40px;
+    height: 40px;
+    color: #0056C9 !important;
+}
+.car-testi .owl-nav{
+    position: absolute;
+    top: -250px;
+    right: 100px;
+}
+.car-testi .owl-stage{
+    left: -200px;
+}
+.home-promotion{
+    background-image: url(../images/home-bg-promotion.jpg);
+    background-size: cover;
 }
 /* Components */
 /* Button and Links */
