@@ -220,8 +220,8 @@ $('.car-promotion').addClass('owl-carousel owl-theme').owlCarousel({
      items: 1,
      dots: false,
      nav: true,
-     mouseDrag: false,
-     touchDrag: false
+     mouseDrag: true,
+     touchDrag: true
    }
  }
 })
