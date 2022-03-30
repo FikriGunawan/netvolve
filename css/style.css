@@ -171,6 +171,13 @@ p{
     padding-bottom: 1.5rem;
     background-color: #fff;
 }
+.home-testi{
+    background-image: url(../images/bg-testi.jpg);
+    background-size: cover;
+}
+.car-testi .items{
+    background-image: url(../images/testi-items.jpg);
+}
 /* Components */
 /* Button and Links */
 .button-white{

@@ -198,6 +198,32 @@ $('.home-isp').addClass('owl-carousel owl-theme').owlCarousel({
    }
  }
 })
+$('.car-testi').addClass('owl-carousel owl-theme').owlCarousel({
+  loop: false,
+  navText: ["<i class='fas fa-arrow-left'></i>","<i class='fas fa-arrow-right'></i>"],
+  responsive:{
+   0: {
+     items: 1,
+     dots: false,
+     nav: true,
+     mouseDrag: false,
+     touchDrag: false,
+     autoHeight: true
+   },
+   600: {
+     items: 1,
+     nav: false
+   },
+   1000: {
+     stagePadding: 50,
+     margin: 50,
+     items: 3,
+     dots: false,
+     loop: false,
+     nav: true
+   }
+ }
+})
 $('.carousel-mobile-visi').addClass('owl-carousel owl-theme').owlCarousel({
   navText: ["<img src='images/chevron-left-square-orange-04.png'>","<img src='images/chevron-right-square-orange-04.png'>"],
   responsive:{
