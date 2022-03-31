@@ -303,6 +303,10 @@ p{
     background-image: url(../images/lets-evolve.jpg);
     border-radius: 20px;
 }
+.isp-wwd .thumbs .wrap-items .items{
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
 /* Components */
 /* Button and Links */
 .button-white{
@@ -331,6 +335,18 @@ p{
     -webkit-box-shadow: 0px -5px 15px -10px rgba(0,0,0,0.58);
     -moz-box-shadow: 0px -5px 15px -10px rgba(0,0,0,0.4);
     box-shadow: 0px -5px 15px -10px rgba(0,0,0,0.4);
+}
+.bg-linear-1{
+    background: linear-gradient(187.7deg, #019AF8 57.3%, #0056C9 107.32%);
+}
+.bg-linear-2{
+    background: linear-gradient(27.16deg, #0056C9 47.67%, #00A5FF 94.77%);
+}
+.bg-linear-3{
+    background: linear-gradient(180deg, #00439D 0%, #0056C9 100%);
+}
+.bg-linear-4{
+    background: linear-gradient(181.31deg, #00A5FF 2.68%, #052BFF 61.14%);
 }
 /* Forms */
 .form-text{
