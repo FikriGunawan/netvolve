@@ -48,7 +48,7 @@ a:hover{
 }
 /* Margins */
 h1, h2, h3, h4, h5, h6, a {font-family: "NeueMachina Regular"; letter-spacing: 0.3px;}
-p{
+p, li{
     font-family: "ObjectSans Regular";
     font-size: 0.8rem;
 }
@@ -347,6 +347,17 @@ p{
     background-image: url(../images/metro-e.jpg);
     height: 100vh;
     background-position: left bottom;
+}
+.metroecloud .wrap-cards{
+    background: #FFFFFF;
+    border: 1.2px solid #0056C9;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 30px;
+}
+.metroecloud .wrap-cards ul{
+    list-style-type: disc;
 }
 /* Components */
 /* Button and Links */
