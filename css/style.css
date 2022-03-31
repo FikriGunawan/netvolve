@@ -216,7 +216,7 @@ p{
     -webkit-box-shadow: 0px 0px 23px -5px rgba(0,0,0,0.32);
     -moz-box-shadow: 0px 0px 23px -5px rgba(0,0,0,0.32);
     box-shadow: 0px 0px 23px -5px rgba(0,0,0,0.32);
-    padding: 70px 60px 40px;
+    padding: 70px 50px 10px 60px;
     border-radius: 20px;
 }
 /* Components */
@@ -247,6 +247,16 @@ p{
     -webkit-box-shadow: 0px -5px 15px -10px rgba(0,0,0,0.58);
     -moz-box-shadow: 0px -5px 15px -10px rgba(0,0,0,0.4);
     box-shadow: 0px -5px 15px -10px rgba(0,0,0,0.4);
+}
+/* Forms */
+.form-text{
+    border-radius: 0;
+    border: none;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+    border-bottom: 1px solid #bbb;
+    font-family: "Object Sans";
 }
 @media screen and (max-width: 414px) {
     p {
