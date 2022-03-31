@@ -218,7 +218,7 @@ $('.car-promotion').addClass('owl-carousel owl-theme').owlCarousel({
    },
    1000: {
      items: 1,
-     dots: false,
+     dots: true,
      nav: true,
      mouseDrag: true,
      touchDrag: true
