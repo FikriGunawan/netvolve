@@ -212,6 +212,13 @@ p{
 .car-promotion{
     margin-top: 200px;
 }
+.home-contact .wrap{
+    -webkit-box-shadow: 0px 0px 23px -5px rgba(0,0,0,0.32);
+    -moz-box-shadow: 0px 0px 23px -5px rgba(0,0,0,0.32);
+    box-shadow: 0px 0px 23px -5px rgba(0,0,0,0.32);
+    padding: 70px 60px 40px;
+    border-radius: 20px;
+}
 /* Components */
 /* Button and Links */
 .button-white{
@@ -228,13 +235,19 @@ p{
 .button-blue:hover{
     color: #fff;
 }
+.button-send-netv{
+    background-color: #0056C9;
+    padding: 3px 30px;
+    border: none;
+    border-radius: 7px;
+    color: #fff;
+    text-align: right;
+}
 .v-shadow{
     -webkit-box-shadow: 0px -5px 15px -10px rgba(0,0,0,0.58);
     -moz-box-shadow: 0px -5px 15px -10px rgba(0,0,0,0.4);
     box-shadow: 0px -5px 15px -10px rgba(0,0,0,0.4);
 }
-
-
 @media screen and (max-width: 414px) {
     p {
         font-size: 0.9rem;
