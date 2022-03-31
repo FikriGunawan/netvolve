@@ -209,6 +209,9 @@ p{
     background-image: url(../images/home-bg-promotion.jpg);
     background-size: cover;
 }
+.car-promotion{
+    margin-top: 200px;
+}
 /* Components */
 /* Button and Links */
 .button-white{
