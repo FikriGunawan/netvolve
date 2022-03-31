@@ -55,6 +55,9 @@ p{
 .text-black{
     color: #000;
 }
+.border-blue{
+    border: 1px solid #052BFF;      
+}
 /* Images */
 .fluid-100vh{
     object-fit: cover;
