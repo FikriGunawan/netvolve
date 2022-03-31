@@ -55,8 +55,14 @@ p{
 .text-black{
     color: #000;
 }
+.text-blue{
+    color: #0056C9;
+}
 .border-blue{
     border: 1px solid #052BFF;      
+}
+.bg-light-gray{
+    background-color: #eaeaea;
 }
 /* Images */
 .fluid-100vh{
@@ -287,6 +293,15 @@ p{
 }
 .about-vision .wrap-cards{
     width: 100%;
+}
+.about-process{
+    background-image: url(../images/bg-testi.jpg);
+    background-size: cover;
+    background-position: top right;
+}
+.bottom-content{
+    background-image: url(../images/lets-evolve.jpg);
+    border-radius: 20px;
 }
 /* Components */
 /* Button and Links */
