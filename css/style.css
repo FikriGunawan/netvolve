@@ -61,6 +61,9 @@ p{
 .text-blue{
     color: #0056C9;
 }
+.text-green{
+    color: #81DE76;
+}
 .border-blue{
     border: 1px solid #052BFF;      
 }
@@ -334,6 +337,11 @@ p{
     background-position: left bottom;
     background-size: cover;
 }
+.jix-bottom{
+    background-image: url(../images/bg-jlm-ie.png);
+    background-size: cover;
+    height: 100vh;
+}
 /* Components */
 /* Button and Links */
 .button-white{
@@ -379,6 +387,9 @@ p{
 }
 .bg-linear-4{
     background: linear-gradient(181.31deg, #00A5FF 2.68%, #052BFF 61.14%);
+}
+.hr-white{
+    border-top: 1px solid #fff;
 }
 /* Forms */
 .form-text{
