@@ -4,6 +4,9 @@
 body{
     position: relative;
 }
+ul{
+    list-style: none;
+}
 @font-face{
     font-family: "ObjectSans Regular";
     src: url(ObjectSans-Regular.ttf) format("truetype");
@@ -319,6 +322,17 @@ p{
     color: #aaa;
     right: 20px;
     border-radius: 10px;
+}
+.nap-ip{
+    background-size: cover;
+    background-image: url(../images/NAP_ip_transit_background.jpg);
+    height: 100vh;
+    background-position: left bottom;
+}
+.nap-gateway{
+    background-image: url(../images/NAP_gateaway_background.jpg);
+    background-position: left bottom;
+    background-size: cover;
 }
 /* Components */
 /* Button and Links */
