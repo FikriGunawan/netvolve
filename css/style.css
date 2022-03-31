@@ -342,6 +342,12 @@ p{
     background-size: cover;
     height: 100vh;
 }
+.ns-metroe{
+    background-size: cover;
+    background-image: url(../images/metro-e.jpg);
+    height: 100vh;
+    background-position: left bottom;
+}
 /* Components */
 /* Button and Links */
 .button-white{
@@ -420,7 +426,12 @@ p{
     display: inline-block;
     text-align: center;
 }
-
+/* Setup Another */
+.vertical-50{
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+}
 /* Mobile */
 
 @media screen and (max-width: 414px) {
