@@ -1,0 +1,335 @@
+/* Navigation */
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  padding: 2% 7.5% !important;
+  background: #231F20;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+nav a,nav p,nav li{
+  margin-bottom: 0;
+  vertical-align: middle;
+  font-family: "ObjectSans Regular";
+  font-size: 0.8rem;
+  color: #fff;
+}
+nav a:hover{
+  font-weight: 700;
+  color: #00A5FF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+nav .navLogo{}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+nav .navMenu{padding-right: 0;}
+nav .navMenu ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+nav .navMenu ul li{
+  display: inline-block;
+  padding: 5px 1.5% 0;
+}
+nav .navMenu ul li:nth-child(3),
+nav .navMenu ul li:nth-child(4){
+  padding-right: 3%;
+}
+nav .navMenu ul li.active a{
+  font-weight: 700;
+  color: #fff;
+}
+nav .navMenu ul li.active a:hover{
+  color: #fff;
+}
+nav .navMenu ul li.active a:before{
+  content: "";
+  position: absolute;
+  display: block;
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  border-radius: 10px;
+  background: #fff;
+}
+nav .navMenu ul li:last-child{
+  float: right;
+  padding: 7px 15px 10px;
+  background: #00A5FF;
+  box-sizing: border-box;
+  border-radius: 34px;
+  border-bottom: unset;
+}
+nav .navMenu ul li:last-child a{
+  font-family: "ObjectSans Regular";
+  font-weight: 700;
+  font-size: 0.8rem;
+  border-bottom: unset;
+}
+nav .navMenu ul li:last-child a:hover{
+  color: #fff;
+}
+nav .navMenu ul li a{
+  position: relative;
+  padding: 3px;
+}
+nav .navMenu ul li a::after{
+  content: "";
+  position: absolute;
+  display: inline-block;
+  top: 25%;
+  right: -15px;
+  width: 13px;
+  height: 13px;
+  background: url(../images/navbar/icon-arrow-down.svg);
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+  transition: .5s;
+}
+nav .navMenu ul li:hover a::after{
+  top: 20%;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+nav .navMenu ul li:first-child a::after,
+nav .navMenu ul li:nth-child(2) a::after,
+nav .navMenu ul li:nth-child(5) a::after,
+nav .navMenu ul li:nth-child(6) a::after,
+nav .navMenu ul li:last-child a::after{display: none;}
+nav .navMenu ul li ul{
+  display: none;
+  position: absolute;
+  padding: 5vh 0;
+  top: 100%;
+  left: -27.5vw;
+  width: 150vw;
+  text-align: left;
+}
+/*
+nav .navMenu ul li:hover ul,
+nav .navMenu ul li:hover ul li{display: block;height: auto;}
+nav .navMenu ul li:hover ul::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #231F20;
+}
+*/
+nav .navMenu ul li ul{}
+nav .navMenu ul li ul li{}
+nav .navMenu ul li ul li a{}
+nav .navMenu ul li ul li ul{}
+nav .navMenu ul li ul li ul li{}
+nav .navMenu ul li ul li ul li a{}
+
+
+
+
+
+
+
+#contentIS,
+#contentNAP{
+  display: none;
+  position: fixed;
+  z-index: 99;
+  padding: 7.5% !important;
+  top: 105px;
+  left: 0;
+  width: 100%;
+  border-radius: 20px;
+  background: #231F20;
+}
+#contentIS.active,
+#contentNAP.active{
+  display: block;
+}
+.secondNav .line{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  border-right: 1px solid #fff;
+}
+.secondNav .image{
+  border-radius: 15px;
+}
+.secondNav .wrap{
+  position: absolute;
+  margin: 0 auto;
+  bottom: 10%;
+  left: 0;
+  right: 0;
+  width: 80%;
+}
+.secondNav .wrap h4,
+.secondNav .wrap p{
+  color: #fff;
+}
+.secondNav .wrap .button-white{
+  display: inline-block;
+  color: #085F9B;
+}
+.secondNav h3,
+.secondNav li,
+.secondNav a{
+  color: #979797;
+}
+.secondNav h3.active,
+.secondNav li.active,
+.secondNav a.active{
+  color: #fff !important;
+}
+.secondNav h3{
+  min-height: 80px;
+  font-size: 25px;
+}
+.secondNav ul{
+  padding: 0;
+  list-style-type: none;
+}
+.secondNav ul li{
+  position: relative;
+  padding: 5px 0;
+}
+.secondNav ul li a{
+  font-family: "ObjectSans Regular";
+  font-size: 0.8rem;
+}
+.secondNav ul li a:hover{
+  color: #00A5FF !important;
+}
+.secondNav ul li a::after{
+  content: "";
+  position: absolute;
+  display: inline-block;
+  top: 35%;
+  right: -15px;
+  width: 13px;
+  height: 13px;
+  background: url(../images/navbar/icon-arrow-down.svg);
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+  transition: .5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+nav .navSearch{padding-right: 0;}
+nav .navSearch form{
+  position: relative;
+}
+nav .navSearch form input{
+  width: 100%;
+  padding: 7px 15px;
+  font-family: "ObjectSans Regular";
+  font-size: 0.8rem;
+  color: #fff;
+  background: transparent;
+  border: 2px solid #fff;
+  box-sizing: border-box;
+  border-radius: 34px;
+}
+nav .navSearch form button{
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+  right: 10px;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+nav .navSearch form button img{}
+
+
+
+
+
+
+
+
+
+
+
+
+
+nav .navLang{}
+nav .navLang p{margin-top: 5px;}
+nav .navLang p a:hover,
+nav .navLang p a.active{
+  font-weight: 700;
+  color: #fff;
+}
+@media screen and (max-width: 846px) {
+
+}
+/* End Navigation */
