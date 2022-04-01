@@ -1,0 +1,667 @@
+/* Navigation */
+nav{
+  position: fixed;
+  padding: 2% 7.5% 0 !important;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  background: #231F20;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+nav a,nav p,nav li{
+  margin-bottom: 0;
+  vertical-align: middle;
+  font-family: "ObjectSans Regular";
+  font-size: 0.8rem;
+  color: #fff;
+}
+nav a:hover{
+  font-weight: 700;
+  color: #00A5FF;
+}
+nav .lineRight{
+  position: absolute;
+  top: 53%;
+  transform: translateY(-50%);
+  left: 28%;
+  height: 70%;
+  border-right: 1px solid #979797;
+}
+
+
+
+
+
+
+
+
+/* Main Menu */
+nav .navMenu{
+  padding-right: 0;
+}
+nav .navMenu ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+nav .navMenu ul li{
+  display: inline-block;
+  padding: 5px 1.5% 40px;
+}
+nav .navMenu ul li:nth-child(3){
+  padding-right: 3%;
+}
+nav .navMenu ul li:nth-child(4){
+  padding-right: 3%;
+}
+nav .navMenu ul li:last-child{
+  float: right;
+  padding: 7px 15px 10px;
+  background: #00A5FF;
+  box-sizing: border-box;
+  border-radius: 34px;
+  border-bottom: unset;
+}
+nav .navMenu ul li a{
+  position: relative;
+  padding: 3px;
+}
+nav .navMenu ul li a::after{
+  content: "";
+  position: absolute;
+  display: inline-block;
+  top: 25%;
+  right: -15px;
+  width: 13px;
+  height: 13px;
+  background: url(../images/navbar/icon-arrow-down.svg);
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+  transition: .5s;
+}
+nav .navMenu ul li:hover a::after{
+  top: 20%;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+nav .navMenu ul li:first-child a::after{display: none;}
+nav .navMenu ul li:nth-child(2) a::after{display: none;}
+nav .navMenu ul li:nth-child(5) a::after{display: none;}
+nav .navMenu ul li:nth-child(6) a::after{display: none;}
+nav .navMenu ul li:last-child a::after{display: none;}
+nav .navMenu ul li:last-child a{
+  font-family: "ObjectSans Regular";
+  font-weight: 700;
+  font-size: 0.8rem;
+  border-bottom: unset;
+}
+nav .navMenu ul li:last-child a:hover{
+  color: #fff;
+}
+nav .navMenu ul li.active a{
+  font-weight: 700;
+  color: #fff;
+}
+nav .navMenu ul li.active a:hover{
+  color: #fff;
+}
+nav .navMenu ul li.active a:before{
+  content: "";
+  position: absolute;
+  display: block;
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  border-radius: 10px;
+  background: #fff;
+}
+/* Main Menu */
+
+
+
+
+
+
+/* Sub Menu 01 */
+nav .navMenu ul li ul{
+  display: none;
+  position: absolute;
+  padding: 10% 14.5% !important;
+  top: 100%;
+  left: -20.8vw;
+  width: 99vw;
+  /* 
+  left: -27.5vw;
+  width: 150vw; 
+  */
+}
+nav .navMenu ul li:hover ul::before{
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #231F20;
+  border-radius: 20px;
+}
+nav .navMenu ul li:hover ul{
+  display: block;
+  height: auto;
+}
+nav .navMenu ul li:hover ul li{
+  display: block;
+  height: auto;
+}
+nav .navMenu ul li ul .active{
+  font-weight: 700 !important;
+  color: #fff !important;
+}
+nav .navMenu ul li ul h3{
+  position: relative;
+  width: 20%;
+  min-height: 70px;
+  font-size: 25px;
+  color: #979797;
+}
+nav .navMenu ul li ul li{
+  padding: 5px 0;
+  width: 20%;
+}
+nav .navMenu ul li ul li:last-child{
+  float: unset;
+  padding: 5px 0;
+  background: transparent;
+  border-radius: unset;
+}
+nav .navMenu ul li ul li a{
+  display: block;
+}
+nav .navMenu ul li ul li a{
+  font-weight: unset;
+  color: #979797;
+}
+nav .navMenu ul li ul li:last-child a{
+  font-weight: unset;
+  color: #979797;
+}
+nav .navMenu ul li ul li a:hover,
+nav .navMenu ul li ul li:last-child a:hover{
+  font-weight: unset;
+  color: #00A5FF;
+}
+nav .navMenu ul li ul li a::after{
+  display: block;
+  position: absolute;
+  top: 25%;
+  right: 0;
+  -webkit-transform: rotate(270deg) !important;
+  -moz-transform: rotate(270deg) !important;
+  -o-transform: rotate(270deg) !important;
+  -ms-transform: rotate(270deg) !important;
+  transform: rotate(270deg) !important;
+}
+nav .navMenu ul li ul li:hover a::after{
+  display: block;
+  position: absolute;
+  top: 25%;
+  right: 0;
+  -webkit-transform: rotate(270deg) !important;
+  -moz-transform: rotate(270deg) !important;
+  -o-transform: rotate(270deg) !important;
+  -ms-transform: rotate(270deg) !important;
+  transform: rotate(270deg) !important;
+}
+nav .navMenu ul li ul li:first-child a::after{
+  display: block;
+  position: absolute;
+  top: 25%;
+  right: 0;
+  -webkit-transform: rotate(270deg) !important;
+  -moz-transform: rotate(270deg) !important;
+  -o-transform: rotate(270deg) !important;
+  -ms-transform: rotate(270deg) !important;
+  transform: rotate(270deg) !important;
+}
+nav .navMenu ul li ul li:nth-child(2) a::after{
+  display: block;
+  position: absolute;
+  top: 25%;
+  right: 0;
+  -webkit-transform: rotate(270deg) !important;
+  -moz-transform: rotate(270deg) !important;
+  -o-transform: rotate(270deg) !important;
+  -ms-transform: rotate(270deg) !important;
+  transform: rotate(270deg) !important;
+}
+nav .navMenu ul li ul li:nth-child(5) a::after{
+  display: block;
+  position: absolute;
+  top: 25%;
+  right: 0;
+  -webkit-transform: rotate(270deg) !important;
+  -moz-transform: rotate(270deg) !important;
+  -o-transform: rotate(270deg) !important;
+  -ms-transform: rotate(270deg) !important;
+  transform: rotate(270deg) !important;
+}
+nav .navMenu ul li ul li:nth-child(6) a::after{
+  display: block;
+  position: absolute;
+  top: 25%;
+  right: 0;
+  -webkit-transform: rotate(270deg) !important;
+  -moz-transform: rotate(270deg) !important;
+  -o-transform: rotate(270deg) !important;
+  -ms-transform: rotate(270deg) !important;
+  transform: rotate(270deg) !important;
+}
+nav .navMenu ul li ul li:last-child a::after{
+  display: block;
+  position: absolute;
+  top: 25%;
+  right: 0;
+  -webkit-transform: rotate(270deg) !important;
+  -moz-transform: rotate(270deg) !important;
+  -o-transform: rotate(270deg) !important;
+  -ms-transform: rotate(270deg) !important;
+  transform: rotate(270deg) !important;
+}
+nav .navMenu ul li ul li ul li:nth-child(3) a::after{
+  display: block;
+  position: absolute;
+  top: 25%;
+  right: 0;
+  -webkit-transform: rotate(270deg) !important;
+  -moz-transform: rotate(270deg) !important;
+  -o-transform: rotate(270deg) !important;
+  -ms-transform: rotate(270deg) !important;
+  transform: rotate(270deg) !important;
+}
+nav .navMenu ul li ul li ul li:nth-child(4) a::after{
+  display: block;
+  position: absolute;
+  top: 25%;
+  right: 0;
+  -webkit-transform: rotate(270deg) !important;
+  -moz-transform: rotate(270deg) !important;
+  -o-transform: rotate(270deg) !important;
+  -ms-transform: rotate(270deg) !important;
+  transform: rotate(270deg) !important;
+}
+nav .navMenu ul li ul li:nth-child(3){
+  padding-right: 0;
+}
+nav .navMenu ul li ul li:nth-child(4){
+  padding-right: 0;
+}
+/* Sub Menu 01 */
+
+
+
+
+
+/* Sub Menu 02 */
+nav .navMenu ul li ul li ul{
+  display: none !important;
+  top: 5px;
+  left: 24.4%;
+  width: 21.5%;
+  padding: 4.7% 0 4.7% 6% !important;
+  height: 100% !important;
+}
+nav .navMenu ul li ul li:hover ul::before{
+  display: none;
+}
+nav .navMenu ul li ul li:hover ul{
+  display: block !important;
+}
+nav .navMenu ul li ul li:hover ul li{
+  display: block !important;
+}
+nav .navMenu ul li ul li ul .active{}
+nav .navMenu ul li ul li ul h3{
+  width: 100%;
+}
+nav .navMenu ul li ul li ul li{
+  width: 100%;
+}
+nav .navMenu ul li ul li ul li:last-child{}
+nav .navMenu ul li ul li ul li a{}
+nav .navMenu ul li ul li ul li a:hover{
+  font-weight: unset;
+  color: #00A5FF;
+}
+nav .navMenu ul li ul li ul li:last-child a:hover{
+  font-weight: unset;
+  color: #00A5FF;
+}
+nav .navMenu ul li ul li ul li a{}
+nav .navMenu ul li ul li ul li:last-child a{}
+nav .navMenu ul li ul li ul li a:hover{}
+nav .navMenu ul li ul li ul li:last-child a:hover{}
+nav .navMenu ul li ul li ul li a:hover{}
+nav .navMenu ul li ul li ul li:last-child a:hover{}
+nav .navMenu ul li ul li ul li a::after{}
+nav .navMenu ul li ul li ul li:hover a::after{}
+nav .navMenu ul li ul li ul li:first-child a::after{}
+nav .navMenu ul li ul li ul li:nth-child(2) a::after{}
+nav .navMenu ul li ul li ul li:nth-child(5) a::after{}
+nav .navMenu ul li ul li ul li:nth-child(6) a::after{}
+nav .navMenu ul li ul li ul li:last-child a::after{}
+nav .navMenu ul li ul li ul li ul li:nth-child(3) a::after{}
+nav .navMenu ul li ul li ul li ul li:nth-child(4) a::after{}
+nav .navMenu ul li ul li ul li:nth-child(3){}
+nav .navMenu ul li ul li ul li:nth-child(4){}
+/* Sub Menu 02 */
+
+
+
+
+
+/* Sub Menu 03 */
+nav .navMenu ul li ul li ul li ul.submenu03{
+  display: none !important;
+  top: 0;
+  left: 99%;
+  width: 105%;
+  padding: 21.7% 0 21.7% 25% !important;
+  height: 100% !important;
+}
+nav .navMenu ul li ul li ul li:hover ul.submenu03::before{
+  display: none;
+}
+nav .navMenu ul li ul li ul li:hover ul.submenu03{
+  display: block !important;
+}
+nav .navMenu ul li ul li ul li:hover ul.submenu03 li{
+  display: block !important;
+}
+nav .navMenu ul li ul li ul li ul.submenu03 .active{}
+nav .navMenu ul li ul li ul li ul.submenu03 h3{
+  width: 100%;
+  color: #fff;
+}
+nav .navMenu ul li ul li ul li ul.submenu03 li{
+  width: 100%;
+}
+nav .navMenu ul li ul li ul li ul.submenu03 li:last-child{}
+nav .navMenu ul li ul li ul li ul.submenu03 li a{
+  color: #fff;
+}
+nav .navMenu ul li ul li ul li ul.submenu03 li a:hover{
+  font-weight: unset;
+  color: #00A5FF;
+}
+nav .navMenu ul li ul li ul li ul.submenu03 li:last-child a:hover{
+  font-weight: unset;
+  color: #00A5FF;
+}
+nav .navMenu ul li ul li ul li ul.submenu03 li a{}
+nav .navMenu ul li ul li ul li ul.submenu03 li:last-child a{}
+nav .navMenu ul li ul li ul li ul.submenu03 li a:hover{}
+nav .navMenu ul li ul li ul li ul.submenu03 li:last-child a:hover{}
+nav .navMenu ul li ul li ul li ul.submenu03 li a:hover{}
+nav .navMenu ul li ul li ul li ul.submenu03 li:last-child a:hover{}
+nav .navMenu ul li ul li ul li ul.submenu03 li a::after{
+  display: none;
+}
+nav .navMenu ul li ul li ul li ul.submenu03 li:hover a::after{
+  display: none;
+}
+nav .navMenu ul li ul li ul li ul.submenu03 li:first-child a::after{
+  display: none;
+}
+nav .navMenu ul li ul li ul li ul.submenu03 li:nth-child(2) a::after{
+  display: none;
+}
+nav .navMenu ul li ul li ul li ul.submenu03 li:nth-child(5) a::after{
+  display: none;
+}
+nav .navMenu ul li ul li ul li ul.submenu03 li:nth-child(6) a::after{
+  display: none;
+}
+nav .navMenu ul li ul li ul li ul.submenu03 li:last-child a::after{
+  display: none;
+}
+nav .navMenu ul li ul li ul li ul.submenu03 li ul li:nth-child(3) a::after{
+  display: none;
+}
+nav .navMenu ul li ul li ul li ul.submenu03 li ul li:nth-child(4) a::after{
+  display: none;
+}
+nav .navMenu ul li ul li ul li ul.submenu03 li:nth-child(3){}
+nav .navMenu ul li ul li ul li ul.submenu03 li:nth-child(4){}
+/* Sub Menu 03 */
+
+
+
+
+
+
+
+
+
+/* Sub Menu 04 */
+nav .navMenu ul li ul li ul li ul.submenu03 li ul.submenu04{
+  display: none !important;
+  top: 0;
+  left: 99%;
+  width: 105%;
+  padding: 0 0 0 10% !important;
+  height: 100% !important;
+}
+nav .navMenu ul li ul li ul li ul.submenu03 li:hover ul.submenu04::before{
+  display: none;
+}
+nav .navMenu ul li ul li ul li ul.submenu03 li:hover ul.submenu04{
+  display: block !important;
+}
+nav .navMenu ul li ul li ul li ul.submenu03 li:hover ul.submenu04 li{
+  display: block !important;
+}
+nav .navMenu ul li ul li ul li ul.submenu03 li ul.submenu04 .active{}
+nav .navMenu ul li ul li ul li ul.submenu03 li ul.submenu04 h3{
+  width: 100%;
+  color: #fff;
+}
+nav .navMenu ul li ul li ul li ul.submenu03 li ul.submenu04 li{
+  width: 100%;
+}
+nav .navMenu ul li ul li ul li ul.submenu03 li ul.submenu04 li:last-child{}
+nav .navMenu ul li ul li ul li ul.submenu03 li ul.submenu04 li a{
+  color: #fff;
+}
+nav .navMenu ul li ul li ul li ul.submenu03 li ul.submenu04 li a:hover{
+  font-weight: unset;
+  color: #00A5FF;
+}
+nav .navMenu ul li ul li ul li ul.submenu03 li ul.submenu04 li:last-child a:hover{
+  font-weight: unset;
+  color: #00A5FF;
+}
+nav .navMenu ul li ul li ul li ul.submenu03 li ul.submenu04 .wrapper{
+  position: relative;
+  top: 7%;
+  width: 100%;
+  height: 85%;
+  background: teal;
+  border-radius: 20px;
+  overflow: hidden;
+}
+nav .navMenu ul li ul li ul li ul.submenu03 li ul.submenu04 .wrapper .image{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+nav .navMenu ul li ul li ul li ul.submenu03 li ul.submenu04 .wrapper .desc{
+  position: absolute;
+  margin: 0 auto;
+  bottom: 10%;
+  left: 0;
+  right: 0;
+  width: 80%;
+}
+nav .navMenu ul li ul li ul li ul.submenu03 li ul.submenu04 .wrapper .desc h4{
+  font-family: "ObjectSans Regular";
+  font-weight: 700;
+}
+nav .navMenu ul li ul li ul li ul.submenu03 li ul.submenu04 .wrapper .desc p{}
+nav .navMenu ul li ul li ul li ul.submenu03 li ul.submenu04 .wrapper .desc a{
+  display: inline-block;
+  color: #085F9B;
+  padding: 4% 15%;
+  margin: 5% 0 0;
+}
+/* Sub Menu 04 */
+
+
+
+
+
+
+
+
+/* Sub Menu NAP */
+nav .navMenu ul li ul.submenuNAP{}
+nav .navMenu ul li ul.submenuNAP .blankspace{
+  height: 20vh;
+}
+nav .navMenu ul li ul.submenuNAP li{}
+nav .navMenu ul li ul.submenuNAP li ul{}
+nav .navMenu ul li ul.submenuNAP li ul li{}
+nav .navMenu ul li ul.submenuNAP li ul li a::after{
+  display: none !important;
+}
+nav .navMenu ul li ul.submenuNAP li ul li ul.submenu03{
+  padding: 21.7% 0 !important;
+  left: 86%;
+  width: 220%;
+}
+nav .navMenu ul li ul.submenuNAP li ul li ul.submenu03 .wrapper{
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: teal;
+  border-radius: 20px;
+  overflow: hidden;
+}
+nav .navMenu ul li ul.submenuNAP li ul li ul.submenu03 .wrapper .image{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+nav .navMenu ul li ul.submenuNAP li ul li ul.submenu03 .wrapper .desc{
+  position: absolute;
+  margin: 0 auto;
+  bottom: 10%;
+  left: 0;
+  right: 0;
+  width: 80%;
+}
+nav .navMenu ul li ul.submenuNAP li ul li ul.submenu03 .wrapper .desc h4{
+  font-family: "ObjectSans Regular";
+  font-weight: 700;
+}
+nav .navMenu ul li ul.submenuNAP li ul li ul.submenu03 .wrapper .desc p{}
+nav .navMenu ul li ul.submenuNAP li ul li ul.submenu03 .wrapper a{
+  display: inline-block;
+  position: absolute;
+  margin: 0;
+  padding: 2% 7%;
+  bottom: 10%;
+  right: 5%;
+  color: #085F9B;
+}
+nav .navMenu ul li ul.submenuNAP li ul li ul.submenu03 li{}
+nav .navMenu ul li ul.submenuNAP li ul li ul.submenu03 li ul.submenu04{}
+nav .navMenu ul li ul.submenuNAP li ul li ul.submenu03 li:hover ul.submenu04::before{}
+nav .navMenu ul li ul.submenuNAP li ul li ul.submenu03 li:hover ul.submenu04{}
+nav .navMenu ul li ul.submenuNAP li ul li ul.submenu03 li:hover ul.submenu04 li{}
+nav .navMenu ul li ul.submenuNAP li ul li ul.submenu03 li ul.submenu04 .active{}
+nav .navMenu ul li ul.submenuNAP li ul li ul.submenu03 li ul.submenu04 h3{}
+nav .navMenu ul li ul.submenuNAP li ul li ul.submenu03 li ul.submenu04 li{}
+nav .navMenu ul li ul.submenuNAP li ul li ul.submenu03 li ul.submenu04 li:last-child{}
+nav .navMenu ul li ul.submenuNAP li ul li ul.submenu03 li ul.submenu04 li a{}
+nav .navMenu ul li ul.submenuNAP li ul li ul.submenu03 li ul.submenu04 li a:hover{}
+nav .navMenu ul li ul.submenuNAP li ul li ul.submenu03 li ul.submenu04 li:last-child a:hover{}
+nav .navMenu ul li ul.submenuNAP li ul li ul.submenu03 li ul.submenu04 .wrapper{}
+nav .navMenu ul li ul.submenuNAP li ul li ul.submenu03 li ul.submenu04 .wrapper .image{}
+nav .navMenu ul li ul.submenuNAP li ul li ul.submenu03 li ul.submenu04 .wrapper .desc{}
+nav .navMenu ul li ul.submenuNAP li ul li ul.submenu03 li ul.submenu04 .wrapper .desc h4{}
+nav .navMenu ul li ul.submenuNAP li ul li ul.submenu03 li ul.submenu04 .wrapper .desc p{}
+nav .navMenu ul li ul.submenuNAP li ul li ul.submenu03 li ul.submenu04 .wrapper .desc a{}
+/* Sub Menu NAP */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Search */
+nav .navSearch{
+  padding-right: 0;
+}
+nav .navSearch form{
+  position: relative;
+}
+nav .navSearch form input{
+  width: 100%;
+  padding: 7px 15px;
+  font-family: "ObjectSans Regular";
+  font-size: 0.8rem;
+  color: #fff;
+  background: transparent;
+  border: 2px solid #fff;
+  box-sizing: border-box;
+  border-radius: 34px;
+}
+nav .navSearch form button{
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+  right: 10px;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Language */
+nav .navLang p{
+  margin-top: 5px;
+}
+nav .navLang p a:hover,nav .navLang p a.active{
+  font-weight: 700;
+  color: #fff;
+}
