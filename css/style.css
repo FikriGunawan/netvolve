@@ -391,6 +391,27 @@ p, li{
     background-size: cover;
     height: 100vh;
 }
+.banner-top-blitz{
+    height: 100vh;
+    overflow: hidden;
+}
+.banner-top-blitz .banner{
+   width: 100vw;
+}
+.banner-top-blitz .bg-banner{
+    position: relative;
+}
+.banner-top-blitz .title-banner{
+    position: absolute;
+    top: 50%;
+    z-index: 2;
+    width: 55%;
+    left: 20%;
+    transform: translate(-20% , -50%);
+}
+.banner-top-blitz .title-banner .desc{
+    width: 72%;
+}
 /* Components */
 /* Button and Links */
 .button-white{
