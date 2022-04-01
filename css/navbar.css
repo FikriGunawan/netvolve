@@ -20,43 +20,9 @@ nav a:hover{
   font-weight: 700;
   color: #00A5FF;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-nav .navLogo{}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-nav .navMenu{padding-right: 0;}
+nav .navMenu{
+  padding-right: 0;
+}
 nav .navMenu ul{
   margin: 0;
   padding: 0;
@@ -145,34 +111,7 @@ nav .navMenu ul li ul{
   width: 150vw;
   text-align: left;
 }
-/*
-nav .navMenu ul li:hover ul,
-nav .navMenu ul li:hover ul li{display: block;height: auto;}
-nav .navMenu ul li:hover ul::before{
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #231F20;
-}
-*/
-nav .navMenu ul li ul{}
-nav .navMenu ul li ul li{}
-nav .navMenu ul li ul li a{}
-nav .navMenu ul li ul li ul{}
-nav .navMenu ul li ul li ul li{}
-nav .navMenu ul li ul li ul li a{}
-
-
-
-
-
-
-
-#contentIS,
-#contentNAP{
+#contentIS,#contentNAP{
   display: none;
   position: fixed;
   z-index: 99;
@@ -262,29 +201,9 @@ nav .navMenu ul li ul li ul li a{}
   transform: rotate(270deg);
   transition: .5s;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-nav .navSearch{padding-right: 0;}
+nav .navSearch{
+  padding-right: 0;
+}
 nav .navSearch form{
   position: relative;
 }
@@ -308,28 +227,10 @@ nav .navSearch form button{
   border: none;
   outline: none;
 }
-nav .navSearch form button img{}
-
-
-
-
-
-
-
-
-
-
-
-
-
-nav .navLang{}
-nav .navLang p{margin-top: 5px;}
-nav .navLang p a:hover,
-nav .navLang p a.active{
+nav .navLang p{
+  margin-top: 5px;
+}
+nav .navLang p a:hover,nav .navLang p a.active{
   font-weight: 700;
   color: #fff;
 }
-@media screen and (max-width: 846px) {
-
-}
-/* End Navigation */
