@@ -116,20 +116,30 @@ p, li{
 }
 .home-isp .wrap{
     width: 100%;
-    background-image: url(../images/images/home-isp.jpg);
+    background-image: url(../images/home-isp.jpg);
     border-radius: 20px;
     overflow: hidden;
+    height: 70vh;
+    background-size: cover;
 }
 .home-isp .content{
     position: absolute;
-    left: 7%;
-    top: 50%;
+    left: 5%;
+    top: 37%;
     transform: translateY(-50%);
 }
-.home-isp .content .button-pos{
+.home-isp .content-bottom{
     position: absolute;
-    bottom: 15%;
-    right: 0;
+    left: 5%;
+    bottom: 0;
+    transform: translateY(-50%);
+    width: 100%;
+    margin: auto;
+}
+.home-isp .content-bottom .button-pos{
+    position: absolute;
+    bottom: 39%;
+    right: 11%;
 }
 .home-services .nav-pills .nav-link.active,.home-services .nav-pills .show > .nav-link{
     background-color: #fff;
