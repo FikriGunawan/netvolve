@@ -116,7 +116,6 @@ p, li{
 }
 .home-isp .wrap{
     width: 100%;
-    background-image: url(../images/home-isp.jpg);
     border-radius: 20px;
     overflow: hidden;
     height: 70vh;
