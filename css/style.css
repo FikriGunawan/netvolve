@@ -412,6 +412,11 @@ p, li{
 .banner-top-blitz .title-banner .desc{
     width: 72%;
 }
+.benefit-colocation{
+    background-image: url(../images/colocation_package_background_element.jpg);
+    background-size: cover;
+    background-position: top right;
+}
 /* Components */
 /* Button and Links */
 .button-white{
