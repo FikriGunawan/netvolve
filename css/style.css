@@ -366,6 +366,11 @@ p, li{
     height: 100vh;
     background-position: left bottom;
 }
+.left-image-big{
+    background-size: cover;
+    height: 100vh;
+    background-position: left bottom;
+}
 .metroecloud .wrap-cards{
     background: #FFFFFF;
     border: 1.2px solid #0056C9;
