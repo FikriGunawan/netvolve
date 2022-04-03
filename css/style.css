@@ -82,6 +82,9 @@ p, li{
 .bg-light-gray{
     background-color: #eaeaea;
 }
+.bg-blue{
+    background-color: #0056C9;
+}
 /* Images */
 .fluid-100vh{
     object-fit: cover;
@@ -434,6 +437,40 @@ p, li{
     background-size: cover;
     background-position: top right;
 }
+.button-filter-news{
+    border: 2px solid #0056C9;
+    color: #0056C9;
+    padding: 10px 20px;
+    font-family: "ObjectSans Regular";
+    border-radius: 10px;
+}
+.car-magazine .item{
+    background-color: #0056C9;
+    padding: 40px;
+    border-radius: 25px;
+}
+.car-magazine .owl-next{
+    background-color: #fff !important;
+    border-radius: 100px !important;
+    width: 40px;
+    height: 40px;
+    color: #0056C9 !important;
+}
+.car-magazine .owl-prev{
+    background-color: #fff !important;
+    border-radius: 100px !important;
+    width: 40px;
+    height: 40px;
+    color: #0056C9 !important;
+}
+.car-magazine .owl-nav{
+    position: absolute;
+    top: -150px;
+    right: 100px;
+}
+.car-magazine .owl-stage{
+    left: -200px;
+}
 /* Components */
 /* Button and Links */
 .button-white{
@@ -523,6 +560,46 @@ p, li{
     transform: translateY(-50%);
     top: 40%;
 }
+/* Searchbar */
+
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+  }
+  
+  .searchTerm {
+    width: 100%;
+    border: 2px solid #0056C9;
+    border-right-color: rgb(0, 86, 201);
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-right: none;
+    padding: 5px;
+    height: 36px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #0F59BD;
+    font-family: "ObjectSans Regular";
+  }
+  
+  .searchTerm:focus{
+    color: #00B4CC;
+  }
+  
+  .searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid #0056C9;
+    background: #0056C9;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+  
 /* Mobile */
 
 @media screen and (max-width: 414px) {
