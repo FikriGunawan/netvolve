@@ -208,7 +208,9 @@ p, li{
     padding-top: 6rem;
     margin-top: -70px;
     padding-bottom: 1.5rem;
-    background-color: #fff;
+    background-image: url(../images/reach_us_wrapper_form.png);
+    background-size: cover;
+    background-position: center;
 }
 .home-testi{
     background-image: url(../images/bg-testi.jpg);
@@ -218,9 +220,10 @@ p, li{
     box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.4);
 }
 .car-testi .item{
-    background-color: #000;
+    background-image: url(../images/reach_us_wrapper_form.png);
     padding: 40px;
     border-radius: 25px;
+    background-size: cover;
 }
 .car-testi .owl-next{
     background-color: #fff !important;
