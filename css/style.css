@@ -212,6 +212,10 @@ p, li{
     background-size: cover;
     background-position: center;
 }
+.home.points-thumb .thumbs .wrap-details{
+    background-color: white !important;
+    background-image: none !important;
+}
 .home-testi{
     background-image: url(../images/bg-testi.jpg);
     background-size: cover;
