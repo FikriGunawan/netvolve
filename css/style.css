@@ -208,7 +208,9 @@ p, li{
     padding-top: 6rem;
     margin-top: -70px;
     padding-bottom: 1.5rem;
-    background-color: #fff;
+    background-image: url(../images/reach_us_wrapper_form.png);
+    background-size: cover;
+    background-position: center;
 }
 .home-testi{
     background-image: url(../images/bg-testi.jpg);
