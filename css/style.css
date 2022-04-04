@@ -471,6 +471,35 @@ p, li{
 .car-magazine .owl-stage{
     left: -200px;
 }
+.reach_us{
+    background-image: url(../images/support_us_reach_us.jpg);
+    background-size: cover;
+}
+.wrapper_form{
+    background-image: url(../images/reach_us_wrapper_form.png);
+    background-size: cover;
+    border-radius: 20px;
+    font-family: "ObjectSans Regular";
+}
+.reachus_text{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    border-radius: 0;
+    color: #fff;
+}
+.wrapper_form .form-control::placeholder{
+    color: #fff !important;
+}
+.address-section .nav .nav-item{
+    border: 1px solid #007BFF;
+    border-radius: 6px;
+    padding: 0px 36px;
+}
+.address-section .nav .nav-item .nav-link{
+    padding-left: 40px;
+    padding-right: 40px;
+}
 /* Components */
 /* Button and Links */
 .button-white{
@@ -494,6 +523,16 @@ p, li{
     border-radius: 7px;
     color: #fff;
     text-align: right;
+    font-family: "ObjectSans Regular";
+}
+.button-send-white{
+    background-color: #fff;
+    padding: 7px 50px;
+    border: none;
+    border-radius: 7px;
+    color: #0056C9;
+    text-align: right;
+    font-family: "ObjectSans Regular";
 }
 .v-shadow{
     -webkit-box-shadow: 0px -5px 15px -10px rgba(0,0,0,0.58);
