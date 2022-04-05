@@ -150,14 +150,24 @@ p, li{
     background-color: #fff;
     color: #000;
     font-weight: bold;
-    border-bottom: 5px solid #0056C9;
     border-radius: 0;
+}
+.home-services .nav-pills .nav-link.cservice.active,.home-services .nav-pills .show > .nav-link.cservice, .home-services .nav-pills .nav-link.cservice:hover{
+    border-bottom: 5px solid #00A5FF;
+}
+.home-services .nav-pills .nav-link.ipbase.active,.home-services .nav-pills .show > .nav-link.ipbase, .home-services .nav-pills .nav-link.ipbase:hover{
+    border-bottom: 5px solid #0056C9;
+}
+.home-services .nav-pills .nav-link.managedict.active,.home-services .nav-pills .show > .nav-link.managedict, .home-services .nav-pills .nav-link.managedict:hover{
+    border-bottom: 5px solid #00439D;
+}
+.home-services .nav-pills .nav-link.datactr.active,.home-services .nav-pills .show > .nav-link.datactr, .home-services .nav-pills .nav-link.datactr:hover{
+    border-bottom: 5px solid #052BFF;
 }
 .home-services .nav-pills .nav-link{
     color: #231F20;
 }
 .home-services .nav-pills .nav-link:hover{
-    border-bottom: 5px solid #0056C9;
     border-radius: 0;
 }
 .home-isp .owl-next{
