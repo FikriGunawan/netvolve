@@ -108,9 +108,8 @@ p, li{
     position: absolute;
     top: 50%;
     z-index: 2;
-    width: 25%;
-    left: 20%;
-    transform: translate(-50% , -50%);
+    left: 7%;
+    transform: translateY(-50%);
 }
 .network .content{
     position: absolute;
