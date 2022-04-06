@@ -441,9 +441,8 @@ p, li{
     position: absolute;
     top: 50%;
     z-index: 2;
-    width: 55%;
-    left: 20%;
-    transform: translate(-20% , -50%);
+    left: 7%;
+    transform: translateY(-50%);
 }
 .banner-top-blitz .title-banner .desc{
     width: 72%;
