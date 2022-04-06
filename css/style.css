@@ -526,7 +526,7 @@ p, li{
 .button-blue{
     background-color: #0056C9;
     border-radius: 10px;
-    padding: 12px 46px;
+    padding: 14px 46px;
     color: #fff;
 }
 .button-blue:hover{
@@ -534,7 +534,7 @@ p, li{
 }
 .button-send-netv{
     background-color: #0056C9;
-    padding: 7px 50px;
+    padding: 14px 46px;
     border: none;
     border-radius: 7px;
     color: #fff;
@@ -543,7 +543,7 @@ p, li{
 }
 .button-send-white{
     background-color: #fff;
-    padding: 7px 50px;
+    padding: 14px 46px;
     border: none;
     border-radius: 7px;
     color: #0056C9;
