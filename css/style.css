@@ -313,7 +313,7 @@ p, li{
     list-style: none;
     padding-left: 0;
 }
-.footer-netvolve .address-details ul li{
+.footer-netvolve .address-details ul li a, .footer-netvolve .address-details ul li{
     color: #fff;
     padding-bottom: 15px;
 }
