@@ -325,15 +325,15 @@ nav .navMenu ul li ul li:hover ul{
 nav .navMenu ul li ul li:hover ul li{
   display: block !important;
 }
-nav .navMenu ul li ul li ul .active{}
+/* nav .navMenu ul li ul li ul .active{} */
 nav .navMenu ul li ul li ul h3{
   width: 100%;
 }
 nav .navMenu ul li ul li ul li{
   width: 100%;
 }
-nav .navMenu ul li ul li ul li:last-child{}
-nav .navMenu ul li ul li ul li a{}
+/* nav .navMenu ul li ul li ul li:last-child{}
+nav .navMenu ul li ul li ul li a{} */
 nav .navMenu ul li ul li ul li a:hover{
   font-weight: unset;
   color: #00A5FF;
@@ -342,7 +342,7 @@ nav .navMenu ul li ul li ul li:last-child a:hover{
   font-weight: unset;
   color: #00A5FF;
 }
-nav .navMenu ul li ul li ul li a{}
+/* nav .navMenu ul li ul li ul li a{}
 nav .navMenu ul li ul li ul li:last-child a{}
 nav .navMenu ul li ul li ul li a:hover{}
 nav .navMenu ul li ul li ul li:last-child a:hover{}
@@ -358,7 +358,7 @@ nav .navMenu ul li ul li ul li:last-child a::after{}
 nav .navMenu ul li ul li ul li ul li:nth-child(3) a::after{}
 nav .navMenu ul li ul li ul li ul li:nth-child(4) a::after{}
 nav .navMenu ul li ul li ul li:nth-child(3){}
-nav .navMenu ul li ul li ul li:nth-child(4){}
+nav .navMenu ul li ul li ul li:nth-child(4){} */
 /* Sub Menu 02 */
 
 
@@ -383,7 +383,7 @@ nav .navMenu ul li ul li ul li:hover ul.submenu03{
 nav .navMenu ul li ul li ul li:hover ul.submenu03 li{
   display: block !important;
 }
-nav .navMenu ul li ul li ul li ul.submenu03 .active{}
+/* nav .navMenu ul li ul li ul li ul.submenu03 .active{} */
 nav .navMenu ul li ul li ul li ul.submenu03 h3{
   width: 100%;
   color: #fff;
@@ -391,7 +391,7 @@ nav .navMenu ul li ul li ul li ul.submenu03 h3{
 nav .navMenu ul li ul li ul li ul.submenu03 li{
   width: 100%;
 }
-nav .navMenu ul li ul li ul li ul.submenu03 li:last-child{}
+/* nav .navMenu ul li ul li ul li ul.submenu03 li:last-child{} */
 nav .navMenu ul li ul li ul li ul.submenu03 li a{
   color: #fff;
 }
@@ -403,12 +403,12 @@ nav .navMenu ul li ul li ul li ul.submenu03 li:last-child a:hover{
   font-weight: unset;
   color: #00A5FF;
 }
-nav .navMenu ul li ul li ul li ul.submenu03 li a{}
+/* nav .navMenu ul li ul li ul li ul.submenu03 li a{}
 nav .navMenu ul li ul li ul li ul.submenu03 li:last-child a{}
 nav .navMenu ul li ul li ul li ul.submenu03 li a:hover{}
 nav .navMenu ul li ul li ul li ul.submenu03 li:last-child a:hover{}
 nav .navMenu ul li ul li ul li ul.submenu03 li a:hover{}
-nav .navMenu ul li ul li ul li ul.submenu03 li:last-child a:hover{}
+nav .navMenu ul li ul li ul li ul.submenu03 li:last-child a:hover{} */
 nav .navMenu ul li ul li ul li ul.submenu03 li a::after{
   display: none;
 }
@@ -436,8 +436,8 @@ nav .navMenu ul li ul li ul li ul.submenu03 li ul li:nth-child(3) a::after{
 nav .navMenu ul li ul li ul li ul.submenu03 li ul li:nth-child(4) a::after{
   display: none;
 }
-nav .navMenu ul li ul li ul li ul.submenu03 li:nth-child(3){}
-nav .navMenu ul li ul li ul li ul.submenu03 li:nth-child(4){}
+/* nav .navMenu ul li ul li ul li ul.submenu03 li:nth-child(3){}
+nav .navMenu ul li ul li ul li ul.submenu03 li:nth-child(4){} */
 /* Sub Menu 03 */
 
 
@@ -466,7 +466,7 @@ nav .navMenu ul li ul li ul li ul.submenu03 li:hover ul.submenu04{
 nav .navMenu ul li ul li ul li ul.submenu03 li:hover ul.submenu04 li{
   display: block !important;
 }
-nav .navMenu ul li ul li ul li ul.submenu03 li ul.submenu04 .active{}
+/* nav .navMenu ul li ul li ul li ul.submenu03 li ul.submenu04 .active{} */
 nav .navMenu ul li ul li ul li ul.submenu03 li ul.submenu04 h3{
   width: 100%;
   color: #fff;
@@ -474,7 +474,7 @@ nav .navMenu ul li ul li ul li ul.submenu03 li ul.submenu04 h3{
 nav .navMenu ul li ul li ul li ul.submenu03 li ul.submenu04 li{
   width: 100%;
 }
-nav .navMenu ul li ul li ul li ul.submenu03 li ul.submenu04 li:last-child{}
+/* nav .navMenu ul li ul li ul li ul.submenu03 li ul.submenu04 li:last-child{} */
 nav .navMenu ul li ul li ul li ul.submenu03 li ul.submenu04 li a{
   color: #fff;
 }
@@ -512,7 +512,7 @@ nav .navMenu ul li ul li ul li ul.submenu03 li ul.submenu04 .wrapper .desc h4{
   font-family: "ObjectSans Regular";
   font-weight: 700;
 }
-nav .navMenu ul li ul li ul li ul.submenu03 li ul.submenu04 .wrapper .desc p{}
+/* nav .navMenu ul li ul li ul li ul.submenu03 li ul.submenu04 .wrapper .desc p{} */
 nav .navMenu ul li ul li ul li ul.submenu03 li ul.submenu04 .wrapper .desc a{
   display: inline-block;
   color: #085F9B;
@@ -529,13 +529,13 @@ nav .navMenu ul li ul li ul li ul.submenu03 li ul.submenu04 .wrapper .desc a{
 
 
 /* Sub Menu NAP */
-nav .navMenu ul li ul.submenuNAP{}
+/* nav .navMenu ul li ul.submenuNAP{} */
 nav .navMenu ul li ul.submenuNAP .blankspace{
   height: 20vh;
 }
-nav .navMenu ul li ul.submenuNAP li{}
+/* nav .navMenu ul li ul.submenuNAP li{}
 nav .navMenu ul li ul.submenuNAP li ul{}
-nav .navMenu ul li ul.submenuNAP li ul li{}
+nav .navMenu ul li ul.submenuNAP li ul li{} */
 nav .navMenu ul li ul.submenuNAP li ul li a::after{
   display: none !important;
 }
@@ -570,7 +570,7 @@ nav .navMenu ul li ul.submenuNAP li ul li ul.submenu03 .wrapper .desc h4{
   font-family: "ObjectSans Regular";
   font-weight: 700;
 }
-nav .navMenu ul li ul.submenuNAP li ul li ul.submenu03 .wrapper .desc p{}
+/* nav .navMenu ul li ul.submenuNAP li ul li ul.submenu03 .wrapper .desc p{} */
 nav .navMenu ul li ul.submenuNAP li ul li ul.submenu03 .wrapper a{
   display: inline-block;
   position: absolute;
@@ -580,7 +580,7 @@ nav .navMenu ul li ul.submenuNAP li ul li ul.submenu03 .wrapper a{
   right: 5%;
   color: #085F9B;
 }
-nav .navMenu ul li ul.submenuNAP li ul li ul.submenu03 li{}
+/* nav .navMenu ul li ul.submenuNAP li ul li ul.submenu03 li{}
 nav .navMenu ul li ul.submenuNAP li ul li ul.submenu03 li ul.submenu04{}
 nav .navMenu ul li ul.submenuNAP li ul li ul.submenu03 li:hover ul.submenu04::before{}
 nav .navMenu ul li ul.submenuNAP li ul li ul.submenu03 li:hover ul.submenu04{}
@@ -597,7 +597,7 @@ nav .navMenu ul li ul.submenuNAP li ul li ul.submenu03 li ul.submenu04 .wrapper 
 nav .navMenu ul li ul.submenuNAP li ul li ul.submenu03 li ul.submenu04 .wrapper .desc{}
 nav .navMenu ul li ul.submenuNAP li ul li ul.submenu03 li ul.submenu04 .wrapper .desc h4{}
 nav .navMenu ul li ul.submenuNAP li ul li ul.submenu03 li ul.submenu04 .wrapper .desc p{}
-nav .navMenu ul li ul.submenuNAP li ul li ul.submenu03 li ul.submenu04 .wrapper .desc a{}
+nav .navMenu ul li ul.submenuNAP li ul li ul.submenu03 li ul.submenu04 .wrapper .desc a{} */
 /* Sub Menu NAP */
 
 
@@ -647,16 +647,6 @@ nav .navSearch form button{
 }
 
 
-
-
-
-
-
-
-
-
-
-
 /* Language */
 nav .navLang p{
   margin-top: 5px;
@@ -670,6 +660,8 @@ nav .navLang p a:hover,nav .navLang p a.active{
 
 @media screen and (max-width: 414px) {
   nav{
+    padding-top: 30px;
+    padding-bottom: 30px;
     background: transparent;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
