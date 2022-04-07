@@ -665,3 +665,13 @@ nav .navLang p a:hover,nav .navLang p a.active{
   font-weight: 700;
   color: #fff;
 }
+
+/* Mobile */
+
+@media screen and (max-width: 414px) {
+  nav{
+    background: transparent;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+}
