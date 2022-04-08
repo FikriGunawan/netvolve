@@ -1,7 +1,10 @@
 /* Navigation */
 nav{
   position: fixed;
-  padding: 2% 7.5% 0 !important;
+  padding-left:  7.5% !important;
+  padding-right: 7.5% !important;
+  padding-top: 2%;
+  padding-bottom: 0;
   top: 0;
   left: 0;
   z-index: 99;
@@ -28,12 +31,6 @@ nav .lineRight{
   height: 70%;
   border-right: 1px solid #979797;
 }
-
-
-
-
-
-
 
 
 /* Main Menu */
