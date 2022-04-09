@@ -146,7 +146,7 @@ p, li{
     right: 11%;
 }
 .home-services .nav-pills .nav-link.active,.home-services .nav-pills .show > .nav-link{
-    background-color: #fff;
+    background-color: #eaeaea;
     color: #000;
     font-weight: bold;
     border-radius: 0;
@@ -662,8 +662,37 @@ p, li{
 /* Mobile */
 
 @media screen and (max-width: 414px) {
-    p {
-        font-size: 0.9rem;
-        line-height: 1.6;
+    .banner-top-blitz.home .title-banner{
+        top: 30%;
+    }
+    .mobile-coverage{
+        background-image: url(../images/bg-mobile-coverage-area-home.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .network.home .content{
+        width: 85%;
+        transform: translateY(-50%);
+        left: 7%;
+    }
+    .home-isp.owl-theme .owl-dots .owl-dot.active span, .home-isp.owl-theme .owl-dots .owl-dot:hover span{
+        background: #0056C9;
+    }
+    .home-isp.owl-theme .owl-nav.disabled + .owl-dots{
+        margin-top: 50px;
+    }
+    .home-isp .content-bottom{
+        left: 5%;
+        bottom: 30px;
+    }
+    .home-isp .wrap{
+        height: 60vh;
+    }
+    .home-isp .content {
+        left: 7%;
+        top: 60%;
+    }
+    .the-process{
+        background-image: url(../images/bg-process-mobile.jpg);
     }
 }

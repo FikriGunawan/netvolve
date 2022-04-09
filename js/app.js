@@ -149,11 +149,12 @@ $('.home-isp').addClass('owl-carousel owl-theme').owlCarousel({
   responsive:{
    0: {
      items: 1,
-     dots: false,
-     nav: true,
-     mouseDrag: false,
-     touchDrag: false,
-     autoHeight: true
+     dots: true,
+     nav: false,
+     autoHeight: true,
+     stagePadding: 50,
+     loop: true,
+     margin: 20
    },
    600: {
      items: 1,
