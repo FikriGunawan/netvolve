@@ -722,4 +722,10 @@ p, li{
         right: 20px;
         position: absolute;
     }
+    .home-contact .wrap{
+        padding: 50px 50px 30px 40px;
+    }
+    .home-contact .wrap textarea{
+        height: 200px;
+    }
 }
