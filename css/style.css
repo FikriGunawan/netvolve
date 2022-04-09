@@ -97,6 +97,9 @@ p, li{
 .fit-contain{
     object-fit: contain;
 }
+.object-rb {
+    object-position: right bottom;
+  }
 /* Pages */
 .banner-top{
     height: 100vh;
@@ -666,8 +669,11 @@ p, li{
 /* Mobile */
 
 @media screen and (max-width: 414px) {
+    .h1, h1 {
+        font-size: 2.1rem;
+    }
     .banner-top-blitz.home .title-banner{
-        top: 30%;
+        top: 28%;
     }
     .mobile-coverage{
         background-image: url(../images/bg-mobile-coverage-area-home.jpg);
@@ -744,5 +750,8 @@ p, li{
     }
     .about-process {
         background-image: url(../images/bg-testi-mobile.jpg);
+    }
+    .banner-top.top-title{
+        top: 20%;
     }
 }
