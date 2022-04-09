@@ -728,4 +728,8 @@ p, li{
     .home-contact .wrap textarea{
         height: 200px;
     }
+    .banner-top.about .title-banner{
+        top: auto;
+        bottom: -50px;
+    }
 }
