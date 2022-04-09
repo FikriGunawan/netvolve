@@ -90,6 +90,10 @@ p, li{
     object-fit: cover;
     height: 100vh;
 }
+.fluid-150vh {
+    object-fit: cover;
+    height: 150vh;
+  }
 .fit-contain{
     object-fit: contain;
 }
@@ -728,8 +732,17 @@ p, li{
     .home-contact .wrap textarea{
         height: 200px;
     }
+    .banner-top.about{
+        height: 150vh;
+    }
     .banner-top.about .title-banner{
         top: auto;
-        bottom: -50px;
+        bottom: 90px;
+    }
+    .about-about .people{
+        margin-top: 0;
+    }
+    .about-process {
+        background-image: url(../images/bg-testi-mobile.jpg);
     }
 }
