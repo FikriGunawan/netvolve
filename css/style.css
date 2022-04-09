@@ -695,4 +695,31 @@ p, li{
     .the-process{
         background-image: url(../images/bg-process-mobile.jpg);
     }
+    .car-testi .owl-stage {
+        left: 0px;
+    }
+    .car-testi.owl-theme .owl-dots .owl-dot.active span, .car-testi.owl-theme .owl-dots .owl-dot:hover span{
+        background: #00A5FF;
+    }
+    .car-testi.owl-theme .owl-dots .owl-dot span{
+        border: 1px solid #fff;
+        background: transparent;
+    }
+    .car-testi.owl-theme .owl-dots{
+        margin-top: 30px;
+    }
+    .car-testi.owl-theme .owl-nav {
+        position: relative;
+        top: auto;
+        right: auto;
+        bottom: -10px;
+    }
+    .car-testi.owl-theme .owl-nav .owl-prev {
+        left: 20px;
+        position: absolute;
+    }
+    .car-testi.owl-theme .owl-nav .owl-next {
+        right: 20px;
+        position: absolute;
+    }
 }

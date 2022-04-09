@@ -172,22 +172,22 @@ $('.home-isp').addClass('owl-carousel owl-theme').owlCarousel({
 })
 $('.car-testi').addClass('owl-carousel owl-theme').owlCarousel({
   loop: false,
-  left: -200,
   navText: ["<i class='fas fa-arrow-left'></i>","<i class='fas fa-arrow-right'></i>"],
   responsive:{
    0: {
      items: 1,
-     dots: false,
+     dots: true,
      nav: true,
-     mouseDrag: false,
-     touchDrag: false,
-     autoHeight: true
+     autoHeight: true,
+     stagePadding: 50,
+     margin: 20
    },
    600: {
      items: 1,
      nav: false
    },
    1000: {
+    left: -200,
      stagePadding: 200,
      margin: 25,
      items: 2,
