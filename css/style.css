@@ -754,4 +754,7 @@ p, li{
     .banner-top.top-title{
         top: 20%;
     }
+    .ns-metroe{
+        background-image: url(../images/connetivity_services_metroe_content_mobile.jpg);
+    }
 }
