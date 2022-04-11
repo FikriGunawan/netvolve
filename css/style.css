@@ -738,12 +738,15 @@ p, li{
     .home-contact .wrap textarea{
         height: 200px;
     }
-    .banner-top.about{
+    .banner-top.about, .banner-top-blitz.blitz{
         height: 150vh;
     }
     .banner-top.about .title-banner{
         top: auto;
         bottom: 90px;
+    }
+    .banner-top-blitz .title-banner{
+        top: 35%;
     }
     .about-about .people{
         margin-top: 0;
