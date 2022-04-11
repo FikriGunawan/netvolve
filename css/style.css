@@ -767,4 +767,10 @@ p, li{
     .nap-gateway{
         background-image: none;
     }
+    .cards-netv .img-cards {
+        object-fit: cover;
+        width: 100%;
+        height: 230px;
+        object-position: center;
+    }
 }
