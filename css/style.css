@@ -773,4 +773,15 @@ p, li{
         height: 230px;
         object-position: center;
     }
+    .ict-mns .home-isp .content-bottom .button-pos {
+        position: relative;
+        bottom: auto;
+        right: auto;
+    }
+    .ict-mns .home-isp .content {
+        left: 0;
+    }
+    .ict-mns .home-isp .content-bottom{
+        left: 0;
+    }
 }
