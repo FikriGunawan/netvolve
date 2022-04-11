@@ -764,4 +764,7 @@ p, li{
     .netsat-people {
         margin-top: 0;
     }
+    .nap-gateway{
+        background-image: none;
+    }
 }
