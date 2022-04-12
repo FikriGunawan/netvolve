@@ -80,7 +80,7 @@ p, li{
     border: 1px solid #fff;      
 }
 .bg-light-gray{
-    background-color: #eaeaea;
+    background-color: #fbfbfb;
 }
 .bg-blue{
     background-color: #0056C9;
@@ -222,10 +222,11 @@ p, li{
     border-radius: 10px;
     padding-top: 6rem;
     margin-top: -70px;
-    padding-bottom: 1.5rem;
+    padding-bottom: 0.9rem;
     background-image: url(../images/reach_us_wrapper_form.png);
     background-size: cover;
     background-position: center;
+    min-height: 220px;
 }
 .home.points-thumb .thumbs .wrap-details{
     background-color: white !important;
@@ -352,7 +353,15 @@ p, li{
     background-position: top right;
 }
 .bottom-content{
-    background-image: url(../images/lets-evolve.jpg);
+    background: linear-gradient(180deg, #0056C9 0%, #00A5FF 100%);
+    border-radius: 20px;
+}
+.bottom-content_primary{
+    background-color: #0056C9;
+    border-radius: 20px;
+}
+.bottom-content_gradient_2{
+    background: linear-gradient(27.16deg, #0056C9 47.67%, #00A5FF 94.77%);;
     border-radius: 20px;
 }
 .isp-wwd .thumbs .wrap-items .items{
@@ -368,7 +377,7 @@ p, li{
     line-height: 2.375rem;
     text-align: center;
     pointer-events: none;
-    color: #aaa;
+    color: #0056C9;
     right: 20px;
     border-radius: 10px;
 }
@@ -407,6 +416,7 @@ p, li{
     border-radius: 20px;
     padding: 30px;
     border-radius: 20px;
+    min-height: 260px;
 }
 .metroecloud .wrap-cards ul{
     list-style-type: disc;
@@ -422,6 +432,10 @@ p, li{
 }
 .cards-netv .details{
     background: linear-gradient(187.7deg, #019AF8 57.3%, #0056C9 107.32%);
+    padding: 35px;
+}
+.cards-netv .details-2{
+    background: linear-gradient(27.16deg, #0056C9 47.67%, #00A5FF 94.77%);
     padding: 35px;
 }
 .cards-netv .img-cards{
@@ -566,9 +580,9 @@ p, li{
     box-shadow: 0px -5px 15px -10px rgba(0,0,0,0.4);
 }
 .g-shadow{
-    -webkit-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.32);
-    -moz-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.32);
-    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.32);
+    -webkit-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.12);
+    -moz-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.12);
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.12);
 }
 .bg-linear-1{
     background: linear-gradient(187.7deg, #019AF8 57.3%, #0056C9 107.32%);
