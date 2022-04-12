@@ -787,4 +787,10 @@ p, li{
     .ict-mns .home-isp .content-bottom{
         left: 0;
     }
+    .network.data-center .content{
+        width: 85%;
+        transform: translateY(-50%);
+        left: 7%;
+        top: 20%;
+    }
 }
