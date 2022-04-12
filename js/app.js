@@ -10,139 +10,6 @@ $(document).ready(function() {
   })
 });
   //  Favor
- $('.carousel-ourbusiness').addClass('owl-carousel owl-theme').owlCarousel({
-  loop:false,
-  navText: ["<img src='images/chevron-left-square-08.png'>","<img src='images/chevron-right-square-08.png'>"],
-  items:2,
-  responsive:{
-   0: {
-     stagePadding: 30,
-     items: 1,
-     dots: false,
-     nav: false,
-     margin: 15
-   },
-   600: {
-     items: 1,
-     nav: false
-   },
-   1000: {
-    stagePadding: 40,
-     items: 2,
-     dots: false,
-     nav: true,
-     margin: 45
-   }
- }
-})
-$('.carousel-milestone').addClass('owl-carousel owl-theme').owlCarousel({
-  loop:false,
-  navText: ["<img src='images/chevron-left-square-orange-04.png'>","<img src='images/chevron-right-square-orange-04.png'>"],
-  items:2,
-  responsive:{
-   0: {
-     items: 1,
-     dots: true,
-     nav: true
-   },
-   600: {
-     items: 1,
-     nav: false
-   },
-   1000: {
-     items: 1,
-     dots: false,
-     nav: true
-   }
- }
-})
-$('.carousel-mission-mobile').addClass('owl-carousel owl-theme').owlCarousel({
-  loop:false,
-  navText: ["<img src='images/chevron-left-square-orange-04.png'>","<img src='images/chevron-right-square-orange-04.png'>"],
-  items:2,
-  responsive:{
-   0: {
-     items: 1,
-     dots: true,
-     nav: true
-   },
-   600: {
-     items: 1,
-     nav: false
-   },
-   1000: {
-     items: 1,
-     dots: false,
-     nav: true
-   }
- }
-})
-$('.carousel-bod').addClass('owl-carousel owl-theme').owlCarousel({
-  loop:false,
-  margin: 45,
-  navText: ["<img src='images/chevron-left-square-orange-04.png'>","<img src='images/chevron-right-square-orange-04.png'>"],
-  items:2,
-  responsive:{
-   0: {
-     stagePadding: 60,
-     items: 1,
-     dots: false,
-     nav: false
-   },
-   600: {
-     items: 1,
-     nav: false
-   },
-   1000: {
-     items: 1,
-     dots: false,
-     nav: true
-   }
- }
-})
-$('.carousel-gallery').addClass('owl-carousel owl-theme').owlCarousel({
-  loop: false,
-  margin: 10,
-  navText: ["<img src='images/chevron-left-square-orange-04.png'>","<img src='images/chevron-right-square-orange-04.png'>"],
-  responsive:{
-   0: {
-     items: 1,
-     dots: false,
-     nav: true
-   },
-   600: {
-     items: 1,
-     nav: false
-   },
-   1000: {
-     items: 1,
-     dots: false,
-     nav: true
-   }
- }
-})
-$('.carousel-csr').addClass('owl-carousel owl-theme').owlCarousel({
-  loop: false,
-  navText: ["<img src='images/chevron-left-square-orange-04.png'>","<img src='images/chevron-right-square-orange-04.png'>"],
-  responsive:{
-   0: {
-     items: 1,
-     stagePadding: 20,
-     margin: 10,
-     dots: false,
-     nav: false
-   },
-   600: {
-     items: 1,
-     nav: false
-   },
-   1000: {
-     items: 1,
-     dots: false,
-     nav: true
-   }
- }
-})
 $('.home-isp').addClass('owl-carousel owl-theme').owlCarousel({
   loop: false,
   navText: ["<i class='fas fa-arrow-left'></i>","<i class='fas fa-arrow-right'></i>"],
@@ -161,10 +28,10 @@ $('.home-isp').addClass('owl-carousel owl-theme').owlCarousel({
      nav: false
    },
    1000: {
-     stagePadding: 200,
-     margin: 50,
+     stagePadding: 250,
+     margin: 30,
      items: 1,
-     dots: false,
+     dots: true,
      loop: true,
      nav: true
    }

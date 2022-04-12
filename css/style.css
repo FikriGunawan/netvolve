@@ -151,6 +151,15 @@ p, li{
     bottom: 39%;
     right: 11%;
 }
+.home-isp.owl-theme .owl-dots .owl-dot.active span, .home-isp.owl-theme .owl-dots .owl-dot:hover span{
+    background: #0056C9;
+}
+.home-isp.owl-theme .owl-nav.disabled + .owl-dots{
+    margin-top: 50px;
+}
+.home-isp.owl-theme .owl-dots{
+    margin-top: 40px;
+}
 .home-services .nav-pills .nav-link.active,.home-services .nav-pills .show > .nav-link{
     background-color: #eaeaea;
     color: #000;
@@ -697,12 +706,6 @@ p, li{
         width: 85%;
         transform: translateY(-50%);
         left: 7%;
-    }
-    .home-isp.owl-theme .owl-dots .owl-dot.active span, .home-isp.owl-theme .owl-dots .owl-dot:hover span{
-        background: #0056C9;
-    }
-    .home-isp.owl-theme .owl-nav.disabled + .owl-dots{
-        margin-top: 50px;
     }
     .home-isp .content-bottom{
         left: 5%;
