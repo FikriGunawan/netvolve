@@ -793,4 +793,22 @@ p, li{
         left: 7%;
         top: 20%;
     }
+    .car-magazine .owl-stage{
+        left: 0;
+    }
+    .car-magazine .owl-nav {
+        position: absolute;
+        top: -130px;
+        right: 10px;
+    }
+    .botton-content-mag-wrap{
+        position: relative;
+        width: 100%;
+        height: 100vh;
+    }
+    .bottom-content-mag-news{
+        position: absolute;
+        bottom: 80px;
+        left: 7%;
+    }
 }

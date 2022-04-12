@@ -228,16 +228,15 @@ $('.car-promotion').addClass('owl-carousel owl-theme').owlCarousel({
 })
 $('.car-magazine').addClass('owl-carousel owl-theme').owlCarousel({
   loop: false,
-  left: -200,
   navText: ["<i class='fas fa-arrow-left'></i>","<i class='fas fa-arrow-right'></i>"],
   responsive:{
    0: {
      items: 1,
      dots: false,
      nav: true,
-     mouseDrag: false,
-     touchDrag: false,
-     autoHeight: true
+     autoHeight: true,
+     stagePadding: 30,
+     margin: 10
    },
    600: {
      items: 1,
@@ -249,7 +248,8 @@ $('.car-magazine').addClass('owl-carousel owl-theme').owlCarousel({
      items: 3,
      dots: false,
      loop: false,
-     nav: true
+     nav: true,
+    left: -200
    }
  }
 })
