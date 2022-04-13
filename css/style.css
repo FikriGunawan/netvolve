@@ -835,4 +835,7 @@ p, li{
         bottom: 80px;
         left: 7%;
     }
+    .nap-ip{
+        background-image: url(../images/mobile/26-nap/image-02.jpg);
+    }
 }
