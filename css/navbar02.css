@@ -725,6 +725,16 @@ nav .navLang p a:hover,nav .navLang p a.active{
             left: 16%;
             box-shadow: 0 5px 0 #fff, 0 10px 0 #fff;
           }
+          .dl-menuwrapper.inverted button:after {
+            content: '';
+            position: absolute;
+            width: 36%;
+            height: 2px;
+            background: #000;
+            top: 29px;
+            left: 16%;
+            box-shadow: 0 5px 0 #000, 0 10px 0 #000;
+          }
 
           .dl-menuwrapper li.dl-back::before, .dl-menuwrapper li > a:not(:only-child)::before{
             border-bottom: 2px solid #fff;
