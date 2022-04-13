@@ -583,6 +583,11 @@ p, li{
     text-align: right;
     font-family: "ObjectSans Regular";
 }
+.button-primary_active{
+    background: #00A5FF;
+    border-radius: 34px;
+    padding: 14px 46px;
+}
 .v-shadow{
     -webkit-box-shadow: 0px -5px 15px -10px rgba(0,0,0,0.58);
     -moz-box-shadow: 0px -5px 15px -10px rgba(0,0,0,0.4);
