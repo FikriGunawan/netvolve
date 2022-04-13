@@ -449,7 +449,7 @@ p, li{
 }
 .cards-netv .img-cards{
     object-fit: contain;
-    width: 243px;
+    width: 250px;
 }
 .bandwidth-demand{
     background-image: url(../images/section_bandwith_demand.jpg);
