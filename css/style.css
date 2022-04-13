@@ -699,6 +699,11 @@ p, li{
     .h1, h1 {
         font-size: 2rem;
     }
+    .banner-top .fluid-100vh, .banner-top-blitz .fluid-100vh {
+            object-fit: cover;
+            height: 100vh;
+            object-position: bottom;
+    }
     .banner-top-blitz.home .title-banner{
         top: 28%;
     }
