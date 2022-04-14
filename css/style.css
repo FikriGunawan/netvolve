@@ -536,12 +536,18 @@ p, li{
     color: #fff !important;
 }
 .address-section .nav .nav-item{
-    border: 1px solid #007BFF;
+    border: 1px solid #0056C9;
     border-radius: 6px;
 }
 .address-section .nav .nav-item .nav-link{
     padding-left: 40px;
     padding-right: 40px;
+}
+.address-section .nav-link.active{
+    background-color: #0056C9;    
+}
+.address-section .nav-link{
+    color: #0056C9;
 }
 /* Components */
 /* Button and Links */
@@ -691,7 +697,6 @@ p, li{
     cursor: pointer;
     font-size: 20px;
   }
-
   
 /* Mobile */
 
@@ -837,5 +842,16 @@ p, li{
     }
     .nap-ip{
         background-image: url(../images/mobile/26-nap/image-02.jpg);
+    }
+    .address-section .nav-pills{
+        width: 860px;
+    }
+    .address-section .nav-wrapper{
+        overflow-x: scroll;
+        scrollbar-width: none;
+        width: 100%;
+    }
+    .address-section iframe{
+        width: 100%;
     }
 }
