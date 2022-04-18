@@ -10,6 +10,27 @@ $(document).ready(function() {
   })
 });
   //  Favor
+  $('.home-header').addClass('owl-carousel owl-theme').owlCarousel({
+    navText: ["<i class='fas fa-arrow-left'></i>","<i class='fas fa-arrow-right'></i>"],
+    responsive:{
+     0: {
+       items: 1,
+       dots: true,
+       nav: false,
+       loop: true
+     },
+     600: {
+       items: 1,
+       nav: false
+     },
+     1000: {
+       items: 1,
+       dots: true,
+       loop: true,
+       nav: false
+     }
+   }
+  })
 $('.home-isp').addClass('owl-carousel owl-theme').owlCarousel({
   loop: false,
   navText: ["<i class='fas fa-arrow-left'></i>","<i class='fas fa-arrow-right'></i>"],

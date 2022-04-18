@@ -59,7 +59,6 @@ a:hover{
 h1, h2, h3, h4, h5, h6, a {font-family: "NeueMachina Regular"; letter-spacing: 0.3px;}
 p, li{
     font-family: "ObjectSans Regular";
-    font-size: 0.8rem;
 }
 .text-gray{
     color: #666666;
@@ -360,6 +359,7 @@ p, li{
     background-image: url(../images/bg-testi.jpg);
     background-size: cover;
     background-position: top right;
+    display: none;
 }
 .bottom-content{
     background: linear-gradient(180deg, #0056C9 0%, #00A5FF 100%);
