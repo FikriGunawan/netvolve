@@ -160,7 +160,7 @@ p, li{
     margin-top: 40px;
 }
 .home-services .nav-pills .nav-link.active,.home-services .nav-pills .show > .nav-link{
-    background-color: #eaeaea;
+    background-color: transparent;
     color: #000;
     font-weight: bold;
     border-radius: 0;
@@ -278,21 +278,32 @@ p, li{
 .home-promotion{
     background-image: url(../images/home-bg-promotion.jpg);
     background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: relative;
 }
 .car-promotion{
-    margin-top: 200px;
+    height: 100vh;
+    width: 100%;
+}
+.car-promotion .item{
+    height: 100vh;
+    width: 100%;
 }
 .car-promotion .owl-nav{
     position: absolute;
-    right: 5%;
+    right: 9%;
     bottom: 25%;
 }
 .car-promotion.owl-theme .owl-dots{
     position: absolute;
-    bottom: 0;
+    bottom: 20px;
+    left: 50%;
+    width: 85%;
+    transform: translateX(-50%);
 }
 .car-promotion.owl-theme .owl-dots .owl-dot span{
-    width: 18vw;
+    width: 19.9vw;
     height: 4px;
     background-color: #c4c4c4;
 }
@@ -301,6 +312,20 @@ p, li{
 }
 .car-promotion.owl-theme .owl-dots .owl-dot.active span, .car-promotion.owl-theme .owl-dots .owl-dot:hover span{
     background-color: #fff;
+}
+.car-promotion .images-promotion{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+.car-promotion .bottom-promotion{
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    bottom: 70px;
+    transform: translateX(-50%);
+    width: 85%;
 }
 .home-contact .wrap{
     -webkit-box-shadow: 0px 0px 23px -5px rgba(0,0,0,0.32);
