@@ -88,6 +88,7 @@ nav .navMenu ul li:hover a::after{
 }
 nav .navMenu ul li:first-child a::after{display: none;}
 nav .navMenu ul li:nth-child(2) a::after{display: none;}
+nav .navMenu ul li:nth-child(4) a::after{display: none;}
 nav .navMenu ul li:nth-child(5) a::after{display: none;}
 nav .navMenu ul li:nth-child(6) a::after{display: none;}
 nav .navMenu ul li:last-child a::after{display: none;}
