@@ -205,6 +205,21 @@ p, li{
     height: 40px;
     color: #0056C9 !important;
 }
+.home-header .owl-dots{
+    position: absolute;
+    bottom: 80px;
+    right: 120px;
+}
+.home-header.owl-theme .owl-dots .owl-dot span{
+    width: 150px;
+    height: 4px;
+}
+.home-header.owl-theme .owl-dots .owl-dot.active span, .home-header.owl-theme .owl-dots .owl-dot:hover span{
+    background: #fff;
+}
+.home-header.owl-theme .owl-dots .owl-dot span{
+    background: #A4A4A4;
+}
 .the-process{
     background-image: url(../images/bg-the-process.png);
     background-size: cover;
