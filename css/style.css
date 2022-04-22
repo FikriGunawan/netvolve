@@ -755,6 +755,9 @@ p, li{
         left: 7%;
         top: 60%;
     }
+    .home-isp.home .content {
+        top: 8%;
+    }
     .the-process{
         background-image: url(../images/bg-process-mobile.jpg);
     }
@@ -836,6 +839,7 @@ p, li{
     }
     .ict-mns .home-isp .content {
         left: 0;
+        top: 10%;
     }
     .ict-mns .home-isp .content-bottom{
         left: 0;
