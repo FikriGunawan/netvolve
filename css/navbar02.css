@@ -447,7 +447,7 @@ nav .navMenu ul li ul li ul li ul.submenu03 li:nth-child(4){} */
 
 
 /* Sub Menu 04 */
-nav .navMenu ul li ul li ul li ul.submenu03 li ul.submenu04{
+nav .navMenu ul li ul li ul li ul.submenu03 li ul.submenu04, nav .navMenu ul li ul li ul.submenu03 li ul.submenu04{
   display: none !important;
   top: 0;
   left: 99%;
@@ -455,36 +455,36 @@ nav .navMenu ul li ul li ul li ul.submenu03 li ul.submenu04{
   padding: 0 0 0 10% !important;
   height: 100% !important;
 }
-nav .navMenu ul li ul li ul li ul.submenu03 li:hover ul.submenu04::before{
+nav .navMenu ul li ul li ul li ul.submenu03 li:hover ul.submenu04::before, nav .navMenu ul li ul li ul.submenu03 li:hover ul.submenu04::before{
   display: none;
 }
-nav .navMenu ul li ul li ul li ul.submenu03 li:hover ul.submenu04{
+nav .navMenu ul li ul li ul li ul.submenu03 li:hover ul.submenu04, nav .navMenu ul li ul li ul.submenu03 li:hover ul.submenu04{
   display: block !important;
 }
-nav .navMenu ul li ul li ul li ul.submenu03 li:hover ul.submenu04 li{
+nav .navMenu ul li ul li ul li ul.submenu03 li:hover ul.submenu04 li, nav .navMenu ul li ul li ul.submenu03 li:hover ul.submenu04 li{
   display: block !important;
 }
 /* nav .navMenu ul li ul li ul li ul.submenu03 li ul.submenu04 .active{} */
-nav .navMenu ul li ul li ul li ul.submenu03 li ul.submenu04 h3{
+nav .navMenu ul li ul li ul li ul.submenu03 li ul.submenu04 h3, nav .navMenu ul li ul li ul.submenu03 li ul.submenu04 h3{
   width: 100%;
   color: #fff;
 }
-nav .navMenu ul li ul li ul li ul.submenu03 li ul.submenu04 li{
+nav .navMenu ul li ul li ul li ul.submenu03 li ul.submenu04 li, nav .navMenu ul li ul li ul.submenu03 li ul.submenu04 li{
   width: 100%;
 }
 /* nav .navMenu ul li ul li ul li ul.submenu03 li ul.submenu04 li:last-child{} */
-nav .navMenu ul li ul li ul li ul.submenu03 li ul.submenu04 li a{
+nav .navMenu ul li ul li ul li ul.submenu03 li ul.submenu04 li a, nav .navMenu ul li ul li ul.submenu03 li ul.submenu04 li a{
   color: #fff;
 }
-nav .navMenu ul li ul li ul li ul.submenu03 li ul.submenu04 li a:hover{
+nav .navMenu ul li ul li ul li ul.submenu03 li ul.submenu04 li a:hover, nav .navMenu ul li ul li ul.submenu03 li ul.submenu04 li a:hover{
   font-weight: unset;
   color: #00A5FF;
 }
-nav .navMenu ul li ul li ul li ul.submenu03 li ul.submenu04 li:last-child a:hover{
+nav .navMenu ul li ul li ul li ul.submenu03 li ul.submenu04 li:last-child a:hover, nav .navMenu ul li ul li ul.submenu03 li ul.submenu04 li:last-child a:hover{
   font-weight: unset;
   color: #00A5FF;
 }
-nav .navMenu ul li ul li ul li ul.submenu03 li ul.submenu04 .wrapper{
+nav .navMenu ul li ul li ul li ul.submenu03 li ul.submenu04 .wrapper, nav .navMenu ul li ul li ul.submenu03 li ul.submenu04 .wrapper{
   position: relative;
   top: 7%;
   width: 100%;
@@ -493,12 +493,12 @@ nav .navMenu ul li ul li ul li ul.submenu03 li ul.submenu04 .wrapper{
   border-radius: 20px;
   overflow: hidden;
 }
-nav .navMenu ul li ul li ul li ul.submenu03 li ul.submenu04 .wrapper .image{
+nav .navMenu ul li ul li ul li ul.submenu03 li ul.submenu04 .wrapper .image, nav .navMenu ul li ul li ul.submenu03 li ul.submenu04 .wrapper .image{
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-nav .navMenu ul li ul li ul li ul.submenu03 li ul.submenu04 .wrapper .desc{
+nav .navMenu ul li ul li ul li ul.submenu03 li ul.submenu04 .wrapper .desc, nav .navMenu ul li ul li ul.submenu03 li ul.submenu04 .wrapper .desc{
   position: absolute;
   margin: 0 auto;
   bottom: 10%;
@@ -506,12 +506,12 @@ nav .navMenu ul li ul li ul li ul.submenu03 li ul.submenu04 .wrapper .desc{
   right: 0;
   width: 80%;
 }
-nav .navMenu ul li ul li ul li ul.submenu03 li ul.submenu04 .wrapper .desc h4{
+nav .navMenu ul li ul li ul li ul.submenu03 li ul.submenu04 .wrapper .desc h4, nav .navMenu ul li ul li ul.submenu03 li ul.submenu04 .wrapper .desc h4{
   font-family: "ObjectSans Regular";
   font-weight: 700;
 }
 /* nav .navMenu ul li ul li ul li ul.submenu03 li ul.submenu04 .wrapper .desc p{} */
-nav .navMenu ul li ul li ul li ul.submenu03 li ul.submenu04 .wrapper .desc a{
+nav .navMenu ul li ul li ul li ul.submenu03 li ul.submenu04 .wrapper .desc a, nav .navMenu ul li ul li ul.submenu03 li ul.submenu04 .wrapper .desc a{
   display: inline-block;
   color: #085F9B;
   padding: 4% 15%;
