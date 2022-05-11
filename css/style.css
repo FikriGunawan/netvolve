@@ -487,7 +487,8 @@ p, li{
     padding: 35px;
 }
 .cards-netv .img-cards{
-    object-fit: contain;
+    object-fit: cover;
+    height: 369px;
     width: 250px;
 }
 .bandwidth-demand{
