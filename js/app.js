@@ -9,6 +9,20 @@ $(document).ready(function() {
     $('.side-menu').removeClass("active");
   })
 });
+// Triggers Slide
+  $('#pills-connectivity').click(function(){
+    $('.home-isp').trigger('to.owl.carousel', 0)
+  });
+  $('#pills-ip').click(function(){
+    $('.home-isp').trigger('to.owl.carousel', 1)
+  });
+  $('#pills-managed').click(function(){
+    $('.home-isp').trigger('to.owl.carousel', 2)
+  });
+  $('#pills-data').click(function(){
+    $('.home-isp').trigger('to.owl.carousel', 3)
+  });
+
   //  Favor
   $('.home-header').addClass('owl-carousel owl-theme').owlCarousel({
     navText: ["<i class='fas fa-arrow-left'></i>","<i class='fas fa-arrow-right'></i>"],
