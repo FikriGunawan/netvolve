@@ -342,6 +342,12 @@ p, li{
     transform: translateX(-50%);
     width: 85%;
 }
+.home-promotion .title-promotion{
+    position: absolute;
+    top: 10%;
+    left: 7.5%;
+    z-index: 2;
+}
 .home-contact .wrap{
     -webkit-box-shadow: 0px 0px 23px -5px rgba(0,0,0,0.32);
     -moz-box-shadow: 0px 0px 23px -5px rgba(0,0,0,0.32);
